@@ -1,166 +1,580 @@
-2013-01-21 21:11:24,028 [main] INFO  org.nutz.log.Logs - Nutz is licensed under the Apache License, Version 2.0 .
-Report bugs : https://github.com/nutzam/nutz/issues
-2013-01-21 21:11:24,260 [main] DEBUG org.nutz.resource.Scans - Locations for Scans:
-[JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\959\1\.cp\lib\jetty-util-6.1.26.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\959\1\.cp\lib\servlet-api-2.5-20081211.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\959\1\.cp\lib\jetty-6.1.26.jar], JarResourceLocation [jarPath=file:/D:/workspace/jiuhua/WebContent/WEB-INF/lib/nutz-1.b.47-jdk6.jar], FileSystemResourceLocation [root=D:\workspace\jiuhua\build\classes], FileSystemResourceLocation [root=D:\workspace\jiuhua\.], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\959\1\.cp\lib\jsp-api-2.1.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\959\1\.cp\lib\jsp-2.1.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\959\1\.cp\lib\run-jetty-run-bootstrap.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\959\1\.cp\lib\core-3.1.1.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\959\1\.cp\lib\jetty-management-6.1.26.jar]]
-2013-01-21 21:11:24,261 [main] INFO  org.nutz.resource.impl.ErrorResourceLocation - ErrorResourceLocation [loc=D:\workspace\jiuhua\WebContent\WEB-INF\classes], maybe it is in your classpath, but not exist
-2013-01-21 21:11:24,417 [main] DEBUG org.nutz.resource.Scans - Locations for Scans:
-[JarResourceLocation [jarPath=D:\workspace\jiuhua\WebContent\WEB-INF\lib\httpmime-4.2.3.jar], JarResourceLocation [jarPath=D:\workspace\jiuhua\WebContent\WEB-INF\lib\nutz-1.b.47-jdk6.jar], JarResourceLocation [jarPath=file:/D:/workspace/jiuhua/WebContent/WEB-INF/lib/nutz-1.b.47-jdk6.jar], JarResourceLocation [jarPath=D:\workspace\jiuhua\WebContent\WEB-INF\lib\httpclient-cache-4.2.3.jar], ErrorResourceLocation [loc=D:\workspace\jiuhua\WebContent\WEB-INF\classes], FileSystemResourceLocation [root=D:\workspace\jiuhua\build\classes], JarResourceLocation [jarPath=D:\workspace\jiuhua\WebContent\WEB-INF\lib\druid-0.2.10.jar], FileSystemResourceLocation [root=D:\workspace\jiuhua\.], JarResourceLocation [jarPath=D:\workspace\jiuhua\WebContent\WEB-INF\lib\commons-logging-1.1.1.jar], JarResourceLocation [jarPath=D:\workspace\jiuhua\WebContent\WEB-INF\lib\mysql-connector-java-5.1.22.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\959\1\.cp\lib\jsp-api-2.1.jar], JarResourceLocation [jarPath=D:\workspace\jiuhua\WebContent\WEB-INF\lib\httpclient-4.2.3.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\959\1\.cp\lib\core-3.1.1.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\959\1\.cp\lib\jetty-util-6.1.26.jar], JarResourceLocation [jarPath=D:\workspace\jiuhua\WebContent\WEB-INF\lib\log4j-1.2.17.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\959\1\.cp\lib\servlet-api-2.5-20081211.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\959\1\.cp\lib\jetty-6.1.26.jar], JarResourceLocation [jarPath=D:\workspace\jiuhua\WebContent\WEB-INF\lib\commons-codec-1.6.jar], JarResourceLocation [jarPath=D:\workspace\jiuhua\WebContent\WEB-INF\lib\httpcore-4.2.2.jar], JarResourceLocation [jarPath=D:\workspace\jiuhua\WebContent\WEB-INF\lib\fastjson-1.1.26.jar], JarResourceLocation [jarPath=D:\workspace\jiuhua\WebContent\WEB-INF\lib\fluent-hc-4.2.3.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\959\1\.cp\lib\run-jetty-run-bootstrap.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\959\1\.cp\lib\jsp-2.1.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\959\1\.cp\lib\jetty-management-6.1.26.jar]]
-2013-01-21 21:11:24,423 [main] DEBUG org.nutz.mvc.config.AbstractNutConfig - MainModule: <cn.jh6.MainModule>
-2013-01-21 21:11:24,450 [main] DEBUG org.nutz.mvc.config.AbstractNutConfig - Loading by class org.nutz.mvc.impl.NutLoading
-2013-01-21 21:11:24,452 [main] INFO  org.nutz.mvc.impl.NutLoading - Nutz Version : 1.b.47 
-2013-01-21 21:11:24,453 [main] INFO  org.nutz.mvc.impl.NutLoading - Nutz.Mvc[nutz] is initializing ...
-2013-01-21 21:11:24,453 [main] DEBUG org.nutz.mvc.impl.NutLoading - Web Container Information:
-2013-01-21 21:11:24,453 [main] DEBUG org.nutz.mvc.impl.NutLoading -  - Default Charset : UTF-8
-2013-01-21 21:11:24,453 [main] DEBUG org.nutz.mvc.impl.NutLoading -  - Current . path  : D:\workspace\jiuhua\.
-2013-01-21 21:11:24,453 [main] DEBUG org.nutz.mvc.impl.NutLoading -  - Java Version    : 1.7.0_10
-2013-01-21 21:11:24,454 [main] DEBUG org.nutz.mvc.impl.NutLoading -  - File separator  : \
-2013-01-21 21:11:24,454 [main] DEBUG org.nutz.mvc.impl.NutLoading -  - Timezone        : Asia/Shanghai
-2013-01-21 21:11:24,455 [main] DEBUG org.nutz.mvc.config.AbstractNutConfig - MainModule: <cn.jh6.MainModule>
-2013-01-21 21:11:24,455 [main] DEBUG org.nutz.mvc.impl.NutLoading - >> app.root = D:/workspace/jiuhua/WebContent
-2013-01-21 21:11:24,458 [main] DEBUG org.nutz.mvc.impl.NutLoading - @IocBy(org.nutz.mvc.ioc.provider.ComboIocProvider)
-2013-01-21 21:11:24,485 [main] DEBUG org.nutz.resource.Scans - Found 3 resource by src( ioc/ ) , regex( ^(.+[.])(js|json)$ )
-2013-01-21 21:11:24,497 [main] DEBUG org.nutz.ioc.loader.json.JsonLoader - Loaded 11 bean define from path=[ioc/] --> [txREPEATABLE_READ, dataSource, txREAD_COMMITTED, txNONE, dao, json, txSERIALIZABLE, $aop, txREAD_UNCOMMITTED, log, upload]
-2013-01-21 21:11:24,505 [main] DEBUG org.nutz.resource.Scans - Found 4 resource by src( cn/jh6/ ) , regex( ^.+[.]class$ )
-2013-01-21 21:11:24,513 [main] DEBUG org.nutz.ioc.loader.annotation.AnnotationIocLoader - Found a Class with Ioc-Annotation : class cn.jh6.module.UploadModule
-2013-01-21 21:11:24,523 [main] DEBUG org.nutz.ioc.loader.annotation.AnnotationIocLoader - Found a Class with Ioc-Annotation : class cn.jh6.module.TypeModule
-2013-01-21 21:11:24,640 [main] DEBUG org.nutz.castor.Castors - Using 80 castor for Castors
-2013-01-21 21:11:24,642 [main] INFO  org.nutz.ioc.loader.annotation.AnnotationIocLoader - Scan complete ! Found 2 classes in 1 base-packages!
-beans = ["typeModule", "uploadModule"]
-2013-01-21 21:11:24,648 [main] DEBUG org.nutz.mvc.config.AbstractNutConfig - MainModule: <cn.jh6.MainModule>
-2013-01-21 21:11:24,650 [main] INFO  org.nutz.mvc.impl.NutLoading - Build URL mapping by org.nutz.mvc.impl.UrlMappingImpl ...
-2013-01-21 21:11:24,652 [main] DEBUG org.nutz.mvc.impl.NutLoading - @Views(DefaultViewMaker)
-2013-01-21 21:11:24,724 [main] DEBUG org.nutz.mvc.impl.NutLoading - @ChainBy(org.nutz.mvc.impl.NutActionChainMaker)
-2013-01-21 21:11:24,727 [main] DEBUG org.nutz.mvc.impl.Loadings - module class location 'file:/D:/workspace/jiuhua/build/classes/'
-2013-01-21 21:11:24,727 [main] DEBUG org.nutz.mvc.impl.Loadings -  > scan 'cn.jh6'
-2013-01-21 21:11:24,730 [main] DEBUG org.nutz.resource.Scans - Found 4 resource by src( cn/jh6/ ) , regex( ^.+[.]class$ )
-2013-01-21 21:11:24,732 [main] DEBUG org.nutz.mvc.impl.Loadings -    >> add 'cn.jh6.module.UploadModule'
-2013-01-21 21:11:24,732 [main] DEBUG org.nutz.mvc.impl.Loadings -    >> add 'cn.jh6.module.TypeModule'
-2013-01-21 21:11:24,740 [main] DEBUG org.nutz.ioc.impl.NutIoc - Get 'json'<interface org.nutz.mvc.View>
-2013-01-21 21:11:24,740 [main] DEBUG org.nutz.ioc.impl.NutIoc - 	 >> Load definition
-2013-01-21 21:11:24,742 [main] DEBUG org.nutz.ioc.loader.map.MapLoader - Loading define for name=json
-2013-01-21 21:11:24,744 [main] DEBUG org.nutz.ioc.loader.combo.ComboIocLoader - Found IocObject(json) in IocLoader(JsonLoader@1682595293)
-2013-01-21 21:11:24,744 [main] DEBUG org.nutz.ioc.impl.NutIoc - 	 >> Make...'json'<interface org.nutz.mvc.View>
-2013-01-21 21:11:24,762 [main] DEBUG org.nutz.ioc.impl.NutIoc - Get '$aop'<interface org.nutz.ioc.aop.config.AopConfigration>
-2013-01-21 21:11:24,762 [main] DEBUG org.nutz.ioc.impl.NutIoc - 	 >> Load definition
-2013-01-21 21:11:24,762 [main] DEBUG org.nutz.ioc.loader.map.MapLoader - Loading define for name=$aop
-2013-01-21 21:11:24,764 [main] DEBUG org.nutz.ioc.loader.combo.ComboIocLoader - Found IocObject($aop) in IocLoader(JsonLoader@1682595293)
-2013-01-21 21:11:24,764 [main] DEBUG org.nutz.ioc.impl.NutIoc - 	 >> Make...'$aop'<interface org.nutz.ioc.aop.config.AopConfigration>
-2013-01-21 21:11:24,765 [main] DEBUG org.nutz.ioc.impl.ScopeContext - Save object '$aop' to [app] 
-2013-01-21 21:11:24,779 [main] DEBUG org.nutz.ioc.aop.impl.DefaultMirrorFactory - class org.nutz.mvc.view.UTF8JsonView , no config to enable AOP.
-2013-01-21 21:11:24,779 [main] DEBUG org.nutz.ioc.impl.ScopeContext - Save object 'json' to [app] 
-2013-01-21 21:11:24,781 [main] DEBUG org.nutz.ioc.aop.impl.DefaultMirrorFactory - class org.nutz.json.JsonFormat , no config to enable AOP.
-2013-01-21 21:11:24,782 [main] DEBUG org.nutz.ioc.aop.impl.DefaultMirrorFactory - class org.nutz.json.JsonFormat , no config to enable AOP.
-2013-01-21 21:11:24,784 [main] DEBUG org.nutz.mvc.impl.UrlMappingImpl -    '/upload/html5'             >> UploadModule.uploadHtml5(...)  : Object     | @Ok(ioc:json) @Fail(json ) | by 0 Filters | (I:UTF-8/O:UTF-8)
-2013-01-21 21:11:24,789 [main] DEBUG org.nutz.ioc.impl.NutIoc - Get 'upload'<class org.nutz.mvc.adaptor.PairAdaptor>
-2013-01-21 21:11:24,789 [main] DEBUG org.nutz.ioc.impl.NutIoc - 	 >> Load definition
-2013-01-21 21:11:24,789 [main] DEBUG org.nutz.ioc.loader.map.MapLoader - Loading define for name=upload
-2013-01-21 21:11:24,790 [main] DEBUG org.nutz.ioc.loader.combo.ComboIocLoader - Found IocObject(upload) in IocLoader(JsonLoader@1682595293)
-2013-01-21 21:11:24,791 [main] DEBUG org.nutz.ioc.impl.NutIoc - 	 >> Make...'upload'<class org.nutz.mvc.adaptor.PairAdaptor>
-2013-01-21 21:11:24,794 [main] DEBUG org.nutz.ioc.aop.impl.DefaultMirrorFactory - class org.nutz.mvc.upload.UploadAdaptor , no config to enable AOP.
-2013-01-21 21:11:24,794 [main] DEBUG org.nutz.ioc.impl.ScopeContext - Save object 'upload' to [app] 
-2013-01-21 21:11:24,798 [main] DEBUG org.nutz.ioc.aop.impl.DefaultMirrorFactory - class org.nutz.mvc.upload.UploadingContext , no config to enable AOP.
-2013-01-21 21:11:24,800 [main] INFO  org.nutz.filepool.NutFilePool - Init file-pool by: ~/tmp [2000]
-2013-01-21 21:11:24,816 [main] DEBUG org.nutz.filepool.NutFilePool - file-pool.home: 'C:\Users\howe\tmp'
-2013-01-21 21:11:24,817 [main] INFO  org.nutz.filepool.NutFilePool - file-pool.cursor: 0
-2013-01-21 21:11:24,818 [main] DEBUG org.nutz.ioc.aop.impl.DefaultMirrorFactory - class org.nutz.mvc.upload.UploadingContext , no config to enable AOP.
-2013-01-21 21:11:24,818 [main] INFO  org.nutz.filepool.NutFilePool - Init file-pool by: ~/tmp [2000]
-2013-01-21 21:11:24,818 [main] DEBUG org.nutz.filepool.NutFilePool - file-pool.home: 'C:\Users\howe\tmp'
-2013-01-21 21:11:24,819 [main] INFO  org.nutz.filepool.NutFilePool - file-pool.cursor: 0
-2013-01-21 21:11:24,821 [main] DEBUG org.nutz.ioc.impl.NutIoc - Get 'json'<interface org.nutz.mvc.View>
-2013-01-21 21:11:24,822 [main] DEBUG org.nutz.mvc.impl.UrlMappingImpl -    '/upload/normal'            >> UploadModule.upload(...)       : Object     | @Ok(ioc:json) @Fail(json ) | by 0 Filters | (I:UTF-8/O:UTF-8)
-2013-01-21 21:11:24,826 [main] DEBUG org.nutz.ioc.impl.NutIoc - Get 'json'<interface org.nutz.mvc.View>
-2013-01-21 21:11:24,827 [main] DEBUG org.nutz.mvc.impl.UrlMappingImpl -    '/Type/add'                 >> TypeModule.add(...)            : boolean    | @Ok(ioc:json) @Fail(json ) | by 0 Filters | (I:UTF-8/O:UTF-8)
-2013-01-21 21:11:24,827 [main] DEBUG org.nutz.ioc.impl.NutIoc - Get 'json'<interface org.nutz.mvc.View>
-2013-01-21 21:11:24,827 [main] DEBUG org.nutz.mvc.impl.UrlMappingImpl -    '/Type/list'                >> TypeModule.list(...)           : Object     | @Ok(ioc:json) @Fail(json ) | by 0 Filters | (I:UTF-8/O:UTF-8)
-2013-01-21 21:11:24,829 [main] DEBUG org.nutz.ioc.impl.NutIoc - Get 'json'<interface org.nutz.mvc.View>
-2013-01-21 21:11:24,829 [main] DEBUG org.nutz.mvc.impl.UrlMappingImpl -    '/Type/delete'              >> TypeModule.delete(...)         : boolean    | @Ok(ioc:json) @Fail(json ) | by 0 Filters | (I:UTF-8/O:UTF-8)
-2013-01-21 21:11:24,830 [main] DEBUG org.nutz.ioc.impl.NutIoc - Get 'json'<interface org.nutz.mvc.View>
-2013-01-21 21:11:24,830 [main] DEBUG org.nutz.mvc.impl.UrlMappingImpl -    '/Type/update'              >> TypeModule.update(...)         : boolean    | @Ok(ioc:json) @Fail(json ) | by 0 Filters | (I:UTF-8/O:UTF-8)
-2013-01-21 21:11:24,830 [main] DEBUG org.nutz.mvc.impl.NutLoading - Localization: org.nutz.mvc.impl.NutMessageLoader('msg')  dft<>
-2013-01-21 21:11:24,833 [main] DEBUG org.nutz.resource.Scans - Found 2 resource by src( msg ) , regex( ^.+[.]properties$ )
-2013-01-21 21:11:24,833 [main] DEBUG org.nutz.mvc.impl.NutMessageLoader - Load Messages in 2 resource : [[NutResource[blog.properties], NutResource[en_US/blog.properties]]]
-2013-01-21 21:11:24,835 [main] DEBUG org.nutz.mvc.impl.NutMessageLoader - Message Loaded, size = 2
-2013-01-21 21:11:24,836 [main] INFO  org.nutz.mvc.impl.NutLoading - Nutz.Mvc[nutz] is up in 380ms
-2013-01-21 21:11:46,070 [main] INFO  org.nutz.log.Logs - Nutz is licensed under the Apache License, Version 2.0 .
-Report bugs : https://github.com/nutzam/nutz/issues
-2013-01-21 21:11:46,282 [main] DEBUG org.nutz.resource.Scans - Locations for Scans:
-[JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-annotations-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-rewrite-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jsp-impl-2.2.2.b05.0.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\javax.servlet.jsp-2.2.0.v201112011158.jar], JarResourceLocation [jarPath=file:/D:/workspace/jiuhua/WebContent/WEB-INF/lib/nutz-1.b.47-jdk6.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-xml-8.1.2.v20120308.jar], FileSystemResourceLocation [root=D:\workspace\jiuhua\build\classes], FileSystemResourceLocation [root=D:\workspace\jiuhua\.], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\org.objectweb.asm_3.3.1.v201101071600.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-servlet-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-plus-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-server-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-deploy-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-policy-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-servlets-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-websocket-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\servlet-api-3.0.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-webapp-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\javax.el-2.2.0.v201108011116.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\javax.servlet.jsp.jstl-1.2.0.v201105211821.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-continuation-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-jndi-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\run-jetty-run-bootstrap-jetty8.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-ajp-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\org.apache.jasper.glassfish-2.2.2.v201112011158.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-security-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-http-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\org.apache.taglibs.standard.glassfish-1.2.0.v201112081803.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-io-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\javax.annotation_1.1.0.v201105051105.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-client-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-util-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-jmx-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-overlay-deployer-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\com.sun.el-2.2.0.v201108011116.jar]]
-2013-01-21 21:11:46,283 [main] INFO  org.nutz.resource.impl.ErrorResourceLocation - ErrorResourceLocation [loc=D:\workspace\jiuhua\WebContent\WEB-INF\classes], maybe it is in your classpath, but not exist
-2013-01-21 21:11:46,430 [main] DEBUG org.nutz.resource.Scans - Locations for Scans:
-[JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-annotations-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-rewrite-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jsp-impl-2.2.2.b05.0.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\javax.servlet.jsp-2.2.0.v201112011158.jar], JarResourceLocation [jarPath=file:/D:/workspace/jiuhua/WebContent/WEB-INF/lib/nutz-1.b.47-jdk6.jar], JarResourceLocation [jarPath=D:\workspace\jiuhua\WebContent\WEB-INF\lib\httpclient-cache-4.2.3.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-xml-8.1.2.v20120308.jar], FileSystemResourceLocation [root=D:\workspace\jiuhua\build\classes], FileSystemResourceLocation [root=D:\workspace\jiuhua\.], JarResourceLocation [jarPath=D:\workspace\jiuhua\WebContent\WEB-INF\lib\commons-logging-1.1.1.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\org.objectweb.asm_3.3.1.v201101071600.jar], JarResourceLocation [jarPath=D:\workspace\jiuhua\WebContent\WEB-INF\lib\mysql-connector-java-5.1.22.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-servlet-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-plus-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-server-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-deploy-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-policy-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-servlets-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-websocket-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\servlet-api-3.0.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-webapp-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\javax.el-2.2.0.v201108011116.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\javax.servlet.jsp.jstl-1.2.0.v201105211821.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-continuation-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\workspace\jiuhua\WebContent\WEB-INF\lib\httpmime-4.2.3.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-jndi-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\run-jetty-run-bootstrap-jetty8.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-ajp-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\org.apache.jasper.glassfish-2.2.2.v201112011158.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-security-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\workspace\jiuhua\WebContent\WEB-INF\lib\nutz-1.b.47-jdk6.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-http-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\org.apache.taglibs.standard.glassfish-1.2.0.v201112081803.jar], ErrorResourceLocation [loc=D:\workspace\jiuhua\WebContent\WEB-INF\classes], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-io-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\javax.annotation_1.1.0.v201105051105.jar], JarResourceLocation [jarPath=D:\workspace\jiuhua\WebContent\WEB-INF\lib\druid-0.2.10.jar], JarResourceLocation [jarPath=D:\workspace\jiuhua\WebContent\WEB-INF\lib\httpclient-4.2.3.jar], JarResourceLocation [jarPath=D:\workspace\jiuhua\WebContent\WEB-INF\lib\log4j-1.2.17.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-client-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-util-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-jmx-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\workspace\jiuhua\WebContent\WEB-INF\lib\commons-codec-1.6.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\jetty-overlay-deployer-8.1.2.v20120308.jar], JarResourceLocation [jarPath=D:\workspace\jiuhua\WebContent\WEB-INF\lib\httpcore-4.2.2.jar], JarResourceLocation [jarPath=D:\workspace\jiuhua\WebContent\WEB-INF\lib\fastjson-1.1.26.jar], JarResourceLocation [jarPath=D:\workspace\jiuhua\WebContent\WEB-INF\lib\fluent-hc-4.2.3.jar], JarResourceLocation [jarPath=D:\Program Files\springsource\sts-3.1.0.RELEASE\configuration\org.eclipse.osgi\bundles\961\1\.cp\lib\com.sun.el-2.2.0.v201108011116.jar]]
-2013-01-21 21:11:46,437 [main] DEBUG org.nutz.mvc.config.AbstractNutConfig - MainModule: <cn.jh6.MainModule>
-2013-01-21 21:11:46,461 [main] DEBUG org.nutz.mvc.config.AbstractNutConfig - Loading by class org.nutz.mvc.impl.NutLoading
-2013-01-21 21:11:46,464 [main] INFO  org.nutz.mvc.impl.NutLoading - Nutz Version : 1.b.47 
-2013-01-21 21:11:46,464 [main] INFO  org.nutz.mvc.impl.NutLoading - Nutz.Mvc[nutz] is initializing ...
-2013-01-21 21:11:46,464 [main] DEBUG org.nutz.mvc.impl.NutLoading - Web Container Information:
-2013-01-21 21:11:46,465 [main] DEBUG org.nutz.mvc.impl.NutLoading -  - Default Charset : UTF-8
-2013-01-21 21:11:46,465 [main] DEBUG org.nutz.mvc.impl.NutLoading -  - Current . path  : D:\workspace\jiuhua\.
-2013-01-21 21:11:46,465 [main] DEBUG org.nutz.mvc.impl.NutLoading -  - Java Version    : 1.7.0_10
-2013-01-21 21:11:46,465 [main] DEBUG org.nutz.mvc.impl.NutLoading -  - File separator  : \
-2013-01-21 21:11:46,465 [main] DEBUG org.nutz.mvc.impl.NutLoading -  - Timezone        : Asia/Shanghai
-2013-01-21 21:11:46,466 [main] DEBUG org.nutz.mvc.config.AbstractNutConfig - MainModule: <cn.jh6.MainModule>
-2013-01-21 21:11:46,467 [main] DEBUG org.nutz.mvc.impl.NutLoading - >> app.root = D:/workspace/jiuhua/WebContent
-2013-01-21 21:11:46,470 [main] DEBUG org.nutz.mvc.impl.NutLoading - @IocBy(org.nutz.mvc.ioc.provider.ComboIocProvider)
-2013-01-21 21:11:46,534 [main] DEBUG org.nutz.resource.Scans - Found 3 resource by src( ioc/ ) , regex( ^(.+[.])(js|json)$ )
-2013-01-21 21:11:46,548 [main] DEBUG org.nutz.ioc.loader.json.JsonLoader - Loaded 11 bean define from path=[ioc/] --> [txREPEATABLE_READ, dataSource, txREAD_COMMITTED, txNONE, dao, json, txSERIALIZABLE, $aop, txREAD_UNCOMMITTED, log, upload]
-2013-01-21 21:11:46,553 [main] DEBUG org.nutz.resource.Scans - Found 4 resource by src( cn/jh6/ ) , regex( ^.+[.]class$ )
-2013-01-21 21:11:46,561 [main] DEBUG org.nutz.ioc.loader.annotation.AnnotationIocLoader - Found a Class with Ioc-Annotation : class cn.jh6.module.UploadModule
-2013-01-21 21:11:46,575 [main] DEBUG org.nutz.ioc.loader.annotation.AnnotationIocLoader - Found a Class with Ioc-Annotation : class cn.jh6.module.TypeModule
-2013-01-21 21:11:46,624 [main] DEBUG org.nutz.castor.Castors - Using 80 castor for Castors
-2013-01-21 21:11:46,627 [main] INFO  org.nutz.ioc.loader.annotation.AnnotationIocLoader - Scan complete ! Found 2 classes in 1 base-packages!
-beans = ["typeModule", "uploadModule"]
-2013-01-21 21:11:46,633 [main] DEBUG org.nutz.mvc.config.AbstractNutConfig - MainModule: <cn.jh6.MainModule>
-2013-01-21 21:11:46,636 [main] INFO  org.nutz.mvc.impl.NutLoading - Build URL mapping by org.nutz.mvc.impl.UrlMappingImpl ...
-2013-01-21 21:11:46,637 [main] DEBUG org.nutz.mvc.impl.NutLoading - @Views(DefaultViewMaker)
-2013-01-21 21:11:46,699 [main] DEBUG org.nutz.mvc.impl.NutLoading - @ChainBy(org.nutz.mvc.impl.NutActionChainMaker)
-2013-01-21 21:11:46,702 [main] DEBUG org.nutz.mvc.impl.Loadings - module class location 'file:/D:/workspace/jiuhua/build/classes/'
-2013-01-21 21:11:46,702 [main] DEBUG org.nutz.mvc.impl.Loadings -  > scan 'cn.jh6'
-2013-01-21 21:11:46,704 [main] DEBUG org.nutz.resource.Scans - Found 4 resource by src( cn/jh6/ ) , regex( ^.+[.]class$ )
-2013-01-21 21:11:46,706 [main] DEBUG org.nutz.mvc.impl.Loadings -    >> add 'cn.jh6.module.UploadModule'
-2013-01-21 21:11:46,706 [main] DEBUG org.nutz.mvc.impl.Loadings -    >> add 'cn.jh6.module.TypeModule'
-2013-01-21 21:11:46,714 [main] DEBUG org.nutz.ioc.impl.NutIoc - Get 'json'<interface org.nutz.mvc.View>
-2013-01-21 21:11:46,714 [main] DEBUG org.nutz.ioc.impl.NutIoc - 	 >> Load definition
-2013-01-21 21:11:46,715 [main] DEBUG org.nutz.ioc.loader.map.MapLoader - Loading define for name=json
-2013-01-21 21:11:46,717 [main] DEBUG org.nutz.ioc.loader.combo.ComboIocLoader - Found IocObject(json) in IocLoader(JsonLoader@378655269)
-2013-01-21 21:11:46,717 [main] DEBUG org.nutz.ioc.impl.NutIoc - 	 >> Make...'json'<interface org.nutz.mvc.View>
-2013-01-21 21:11:46,719 [main] DEBUG org.nutz.ioc.impl.NutIoc - Get '$aop'<interface org.nutz.ioc.aop.config.AopConfigration>
-2013-01-21 21:11:46,719 [main] DEBUG org.nutz.ioc.impl.NutIoc - 	 >> Load definition
-2013-01-21 21:11:46,719 [main] DEBUG org.nutz.ioc.loader.map.MapLoader - Loading define for name=$aop
-2013-01-21 21:11:46,721 [main] DEBUG org.nutz.ioc.loader.combo.ComboIocLoader - Found IocObject($aop) in IocLoader(JsonLoader@378655269)
-2013-01-21 21:11:46,721 [main] DEBUG org.nutz.ioc.impl.NutIoc - 	 >> Make...'$aop'<interface org.nutz.ioc.aop.config.AopConfigration>
-2013-01-21 21:11:46,722 [main] DEBUG org.nutz.ioc.impl.ScopeContext - Save object '$aop' to [app] 
-2013-01-21 21:11:46,736 [main] DEBUG org.nutz.ioc.aop.impl.DefaultMirrorFactory - class org.nutz.mvc.view.UTF8JsonView , no config to enable AOP.
-2013-01-21 21:11:46,736 [main] DEBUG org.nutz.ioc.impl.ScopeContext - Save object 'json' to [app] 
-2013-01-21 21:11:46,738 [main] DEBUG org.nutz.ioc.aop.impl.DefaultMirrorFactory - class org.nutz.json.JsonFormat , no config to enable AOP.
-2013-01-21 21:11:46,740 [main] DEBUG org.nutz.ioc.aop.impl.DefaultMirrorFactory - class org.nutz.json.JsonFormat , no config to enable AOP.
-2013-01-21 21:11:46,743 [main] DEBUG org.nutz.mvc.impl.UrlMappingImpl -    '/upload/html5'             >> UploadModule.uploadHtml5(...)  : Object     | @Ok(ioc:json) @Fail(json ) | by 0 Filters | (I:UTF-8/O:UTF-8)
-2013-01-21 21:11:46,747 [main] DEBUG org.nutz.ioc.impl.NutIoc - Get 'upload'<class org.nutz.mvc.adaptor.PairAdaptor>
-2013-01-21 21:11:46,747 [main] DEBUG org.nutz.ioc.impl.NutIoc - 	 >> Load definition
-2013-01-21 21:11:46,747 [main] DEBUG org.nutz.ioc.loader.map.MapLoader - Loading define for name=upload
-2013-01-21 21:11:46,748 [main] DEBUG org.nutz.ioc.loader.combo.ComboIocLoader - Found IocObject(upload) in IocLoader(JsonLoader@378655269)
-2013-01-21 21:11:46,748 [main] DEBUG org.nutz.ioc.impl.NutIoc - 	 >> Make...'upload'<class org.nutz.mvc.adaptor.PairAdaptor>
-2013-01-21 21:11:46,752 [main] DEBUG org.nutz.ioc.aop.impl.DefaultMirrorFactory - class org.nutz.mvc.upload.UploadAdaptor , no config to enable AOP.
-2013-01-21 21:11:46,752 [main] DEBUG org.nutz.ioc.impl.ScopeContext - Save object 'upload' to [app] 
-2013-01-21 21:11:46,755 [main] DEBUG org.nutz.ioc.aop.impl.DefaultMirrorFactory - class org.nutz.mvc.upload.UploadingContext , no config to enable AOP.
-2013-01-21 21:11:46,757 [main] INFO  org.nutz.filepool.NutFilePool - Init file-pool by: ~/tmp [2000]
-2013-01-21 21:11:46,757 [main] DEBUG org.nutz.filepool.NutFilePool - file-pool.home: 'C:\Users\howe\tmp'
-2013-01-21 21:11:46,758 [main] INFO  org.nutz.filepool.NutFilePool - file-pool.cursor: 0
-2013-01-21 21:11:46,760 [main] DEBUG org.nutz.ioc.aop.impl.DefaultMirrorFactory - class org.nutz.mvc.upload.UploadingContext , no config to enable AOP.
-2013-01-21 21:11:46,760 [main] INFO  org.nutz.filepool.NutFilePool - Init file-pool by: ~/tmp [2000]
-2013-01-21 21:11:46,760 [main] DEBUG org.nutz.filepool.NutFilePool - file-pool.home: 'C:\Users\howe\tmp'
-2013-01-21 21:11:46,760 [main] INFO  org.nutz.filepool.NutFilePool - file-pool.cursor: 0
-2013-01-21 21:11:46,763 [main] DEBUG org.nutz.ioc.impl.NutIoc - Get 'json'<interface org.nutz.mvc.View>
-2013-01-21 21:11:46,763 [main] DEBUG org.nutz.mvc.impl.UrlMappingImpl -    '/upload/normal'            >> UploadModule.upload(...)       : Object     | @Ok(ioc:json) @Fail(json ) | by 0 Filters | (I:UTF-8/O:UTF-8)
-2013-01-21 21:11:46,768 [main] DEBUG org.nutz.ioc.impl.NutIoc - Get 'json'<interface org.nutz.mvc.View>
-2013-01-21 21:11:46,768 [main] DEBUG org.nutz.mvc.impl.UrlMappingImpl -    '/Type/add'                 >> TypeModule.add(...)            : boolean    | @Ok(ioc:json) @Fail(json ) | by 0 Filters | (I:UTF-8/O:UTF-8)
-2013-01-21 21:11:46,769 [main] DEBUG org.nutz.ioc.impl.NutIoc - Get 'json'<interface org.nutz.mvc.View>
-2013-01-21 21:11:46,769 [main] DEBUG org.nutz.mvc.impl.UrlMappingImpl -    '/Type/list'                >> TypeModule.list(...)           : Object     | @Ok(ioc:json) @Fail(json ) | by 0 Filters | (I:UTF-8/O:UTF-8)
-2013-01-21 21:11:46,770 [main] DEBUG org.nutz.ioc.impl.NutIoc - Get 'json'<interface org.nutz.mvc.View>
-2013-01-21 21:11:46,770 [main] DEBUG org.nutz.mvc.impl.UrlMappingImpl -    '/Type/delete'              >> TypeModule.delete(...)         : boolean    | @Ok(ioc:json) @Fail(json ) | by 0 Filters | (I:UTF-8/O:UTF-8)
-2013-01-21 21:11:46,771 [main] DEBUG org.nutz.ioc.impl.NutIoc - Get 'json'<interface org.nutz.mvc.View>
-2013-01-21 21:11:46,771 [main] DEBUG org.nutz.mvc.impl.UrlMappingImpl -    '/Type/update'              >> TypeModule.update(...)         : boolean    | @Ok(ioc:json) @Fail(json ) | by 0 Filters | (I:UTF-8/O:UTF-8)
-2013-01-21 21:11:46,772 [main] DEBUG org.nutz.mvc.impl.NutLoading - Localization: org.nutz.mvc.impl.NutMessageLoader('msg')  dft<>
-2013-01-21 21:11:46,774 [main] DEBUG org.nutz.resource.Scans - Found 2 resource by src( msg ) , regex( ^.+[.]properties$ )
-2013-01-21 21:11:46,774 [main] DEBUG org.nutz.mvc.impl.NutMessageLoader - Load Messages in 2 resource : [[NutResource[blog.properties], NutResource[en_US/blog.properties]]]
-2013-01-21 21:11:46,776 [main] DEBUG org.nutz.mvc.impl.NutMessageLoader - Message Loaded, size = 2
-2013-01-21 21:11:46,777 [main] INFO  org.nutz.mvc.impl.NutLoading - Nutz.Mvc[nutz] is up in 311ms
+2013-02-17 12:57:23,149 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.weather.com.cn
+2013-02-17 12:57:23,165 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.weather.com.cn:80
+2013-02-17 12:57:23,211 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+2013-02-17 12:57:23,224 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2013-02-17 12:57:23,224 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2013-02-17 12:57:23,224 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2013-02-17 12:57:23,224 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+2013-02-17 12:57:23,225 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /data/sk/101221704.html HTTP/1.1
+2013-02-17 12:57:23,225 [main] DEBUG org.apache.http.wire - >> "POST /data/sk/101221704.html HTTP/1.1[\r][\n]"
+2013-02-17 12:57:23,226 [main] DEBUG org.apache.http.wire - >> "Content-Length: 0[\r][\n]"
+2013-02-17 12:57:23,226 [main] DEBUG org.apache.http.wire - >> "Host: www.weather.com.cn[\r][\n]"
+2013-02-17 12:57:23,226 [main] DEBUG org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+2013-02-17 12:57:23,227 [main] DEBUG org.apache.http.wire - >> "User-Agent: Apache-HttpClient/4.2.3 (java 1.5)[\r][\n]"
+2013-02-17 12:57:23,227 [main] DEBUG org.apache.http.wire - >> "[\r][\n]"
+2013-02-17 12:57:23,227 [main] DEBUG org.apache.http.headers - >> POST /data/sk/101221704.html HTTP/1.1
+2013-02-17 12:57:23,227 [main] DEBUG org.apache.http.headers - >> Content-Length: 0
+2013-02-17 12:57:23,227 [main] DEBUG org.apache.http.headers - >> Host: www.weather.com.cn
+2013-02-17 12:57:23,227 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+2013-02-17 12:57:23,227 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.2.3 (java 1.5)
+2013-02-17 12:57:23,298 [main] DEBUG org.apache.http.wire - << "HTTP/1.1 405 Not Allowed[\r][\n]"
+2013-02-17 12:57:23,300 [main] DEBUG org.apache.http.wire - << "Server: Apache/2.2.0[\r][\n]"
+2013-02-17 12:57:23,301 [main] DEBUG org.apache.http.wire - << "Date: Sun, 17 Feb 2013 04:56:20 GMT[\r][\n]"
+2013-02-17 12:57:23,301 [main] DEBUG org.apache.http.wire - << "Content-Type: text/html; charset=utf-8[\r][\n]"
+2013-02-17 12:57:23,301 [main] DEBUG org.apache.http.wire - << "Transfer-Encoding: chunked[\r][\n]"
+2013-02-17 12:57:23,301 [main] DEBUG org.apache.http.wire - << "Connection: close[\r][\n]"
+2013-02-17 12:57:23,301 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 12:57:23,301 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 405 Not Allowed
+2013-02-17 12:57:23,302 [main] DEBUG org.apache.http.headers - << HTTP/1.1 405 Not Allowed
+2013-02-17 12:57:23,302 [main] DEBUG org.apache.http.headers - << Server: Apache/2.2.0
+2013-02-17 12:57:23,302 [main] DEBUG org.apache.http.headers - << Date: Sun, 17 Feb 2013 04:56:20 GMT
+2013-02-17 12:57:23,302 [main] DEBUG org.apache.http.headers - << Content-Type: text/html; charset=utf-8
+2013-02-17 12:57:23,302 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+2013-02-17 12:57:23,302 [main] DEBUG org.apache.http.headers - << Connection: close
+2013-02-17 12:57:23,311 [main] DEBUG org.apache.http.wire - << "ad[\r][\n]"
+2013-02-17 12:57:23,311 [main] DEBUG org.apache.http.wire - << "<html>[\r][\n]"
+2013-02-17 12:57:23,311 [main] DEBUG org.apache.http.wire - << "<head><title>405 Not Allowed</title></head>[\r][\n]"
+2013-02-17 12:57:23,311 [main] DEBUG org.apache.http.wire - << "<body bgcolor="white">[\r][\n]"
+2013-02-17 12:57:23,311 [main] DEBUG org.apache.http.wire - << "<center><h1>405 Not Allowed</h1></center>[\r][\n]"
+2013-02-17 12:57:23,311 [main] DEBUG org.apache.http.wire - << "<hr><center>Apache/2.2.0</center>[\r][\n]"
+2013-02-17 12:57:23,311 [main] DEBUG org.apache.http.wire - << "</body>[\r][\n]"
+2013-02-17 12:57:23,312 [main] DEBUG org.apache.http.wire - << "</html>[\r][\n]"
+2013-02-17 12:57:23,312 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 12:57:23,312 [main] DEBUG org.apache.http.wire - << "0[\r][\n]"
+2013-02-17 12:57:23,312 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 12:57:23,312 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@11b2c43e
+2013-02-17 12:57:23,312 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:8630<->113.108.239.105:80 shut down
+2013-02-17 12:57:23,312 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive for 9223372036854775807 MILLISECONDS
+2013-02-17 12:58:17,814 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.weather.com.cn
+2013-02-17 12:58:17,831 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.weather.com.cn:80
+2013-02-17 12:58:17,878 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+2013-02-17 12:58:17,891 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2013-02-17 12:58:17,891 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2013-02-17 12:58:17,892 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2013-02-17 12:58:17,892 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+2013-02-17 12:58:17,892 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /data/sk/101221704.html HTTP/1.1
+2013-02-17 12:58:17,893 [main] DEBUG org.apache.http.wire - >> "GET /data/sk/101221704.html HTTP/1.1[\r][\n]"
+2013-02-17 12:58:17,894 [main] DEBUG org.apache.http.wire - >> "Host: www.weather.com.cn[\r][\n]"
+2013-02-17 12:58:17,894 [main] DEBUG org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+2013-02-17 12:58:17,894 [main] DEBUG org.apache.http.wire - >> "User-Agent: Apache-HttpClient/4.2.3 (java 1.5)[\r][\n]"
+2013-02-17 12:58:17,894 [main] DEBUG org.apache.http.wire - >> "[\r][\n]"
+2013-02-17 12:58:17,894 [main] DEBUG org.apache.http.headers - >> GET /data/sk/101221704.html HTTP/1.1
+2013-02-17 12:58:17,894 [main] DEBUG org.apache.http.headers - >> Host: www.weather.com.cn
+2013-02-17 12:58:17,895 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+2013-02-17 12:58:17,895 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.2.3 (java 1.5)
+2013-02-17 12:58:17,964 [main] DEBUG org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+2013-02-17 12:58:17,967 [main] DEBUG org.apache.http.wire - << "Server: Apache/2.2.0[\r][\n]"
+2013-02-17 12:58:17,967 [main] DEBUG org.apache.http.wire - << "Date: Sun, 17 Feb 2013 04:57:18 GMT[\r][\n]"
+2013-02-17 12:58:17,967 [main] DEBUG org.apache.http.wire - << "Content-Type: text/html; charset=utf-8[\r][\n]"
+2013-02-17 12:58:17,967 [main] DEBUG org.apache.http.wire - << "Transfer-Encoding: chunked[\r][\n]"
+2013-02-17 12:58:17,967 [main] DEBUG org.apache.http.wire - << "Connection: close[\r][\n]"
+2013-02-17 12:58:17,967 [main] DEBUG org.apache.http.wire - << "Age: 0[\r][\n]"
+2013-02-17 12:58:17,968 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 12:58:17,968 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+2013-02-17 12:58:17,968 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+2013-02-17 12:58:17,968 [main] DEBUG org.apache.http.headers - << Server: Apache/2.2.0
+2013-02-17 12:58:17,968 [main] DEBUG org.apache.http.headers - << Date: Sun, 17 Feb 2013 04:57:18 GMT
+2013-02-17 12:58:17,969 [main] DEBUG org.apache.http.headers - << Content-Type: text/html; charset=utf-8
+2013-02-17 12:58:17,969 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+2013-02-17 12:58:17,969 [main] DEBUG org.apache.http.headers - << Connection: close
+2013-02-17 12:58:17,969 [main] DEBUG org.apache.http.headers - << Age: 0
+2013-02-17 12:58:17,977 [main] DEBUG org.apache.http.wire - << "9e[\r][\n]"
+2013-02-17 12:58:17,978 [main] DEBUG org.apache.http.wire - << "{"weatherinfo":{"city":"[0xe4][0xb9][0x9d][0xe5][0x8d][0x8e][0xe5][0xb1][0xb1]","cityid":"101221704","temp":"6","WD":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]","WS":"1[0xe7][0xba][0xa7]","SD":"91%","WSE":"1","time":"12:40","isRadar":"0","Radar":""}}"
+2013-02-17 12:58:17,978 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 12:58:17,978 [main] DEBUG org.apache.http.wire - << "0[\r][\n]"
+2013-02-17 12:58:17,978 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 12:58:17,978 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1c7b2390
+2013-02-17 12:58:17,978 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:8703<->113.108.239.105:80 shut down
+2013-02-17 12:58:17,979 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive for 9223372036854775807 MILLISECONDS
+2013-02-17 12:59:28,283 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.weather.com.cn
+2013-02-17 12:59:28,301 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.weather.com.cn:80
+2013-02-17 12:59:28,349 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+2013-02-17 12:59:28,363 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2013-02-17 12:59:28,363 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2013-02-17 12:59:28,363 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2013-02-17 12:59:28,364 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+2013-02-17 12:59:28,364 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /data/sk/101221704.html HTTP/1.1
+2013-02-17 12:59:28,365 [main] DEBUG org.apache.http.wire - >> "GET /data/sk/101221704.html HTTP/1.1[\r][\n]"
+2013-02-17 12:59:28,366 [main] DEBUG org.apache.http.wire - >> "Host: www.weather.com.cn[\r][\n]"
+2013-02-17 12:59:28,366 [main] DEBUG org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+2013-02-17 12:59:28,366 [main] DEBUG org.apache.http.wire - >> "User-Agent: Apache-HttpClient/4.2.3 (java 1.5)[\r][\n]"
+2013-02-17 12:59:28,367 [main] DEBUG org.apache.http.wire - >> "[\r][\n]"
+2013-02-17 12:59:28,367 [main] DEBUG org.apache.http.headers - >> GET /data/sk/101221704.html HTTP/1.1
+2013-02-17 12:59:28,367 [main] DEBUG org.apache.http.headers - >> Host: www.weather.com.cn
+2013-02-17 12:59:28,367 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+2013-02-17 12:59:28,367 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.2.3 (java 1.5)
+2013-02-17 12:59:28,439 [main] DEBUG org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+2013-02-17 12:59:28,441 [main] DEBUG org.apache.http.wire - << "Server: Apache/2.2.0[\r][\n]"
+2013-02-17 12:59:28,441 [main] DEBUG org.apache.http.wire - << "Date: Sun, 17 Feb 2013 04:58:28 GMT[\r][\n]"
+2013-02-17 12:59:28,441 [main] DEBUG org.apache.http.wire - << "Content-Type: text/html; charset=utf-8[\r][\n]"
+2013-02-17 12:59:28,441 [main] DEBUG org.apache.http.wire - << "Transfer-Encoding: chunked[\r][\n]"
+2013-02-17 12:59:28,442 [main] DEBUG org.apache.http.wire - << "Connection: close[\r][\n]"
+2013-02-17 12:59:28,442 [main] DEBUG org.apache.http.wire - << "Age: 0[\r][\n]"
+2013-02-17 12:59:28,442 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 12:59:28,442 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+2013-02-17 12:59:28,442 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+2013-02-17 12:59:28,443 [main] DEBUG org.apache.http.headers - << Server: Apache/2.2.0
+2013-02-17 12:59:28,443 [main] DEBUG org.apache.http.headers - << Date: Sun, 17 Feb 2013 04:58:28 GMT
+2013-02-17 12:59:28,443 [main] DEBUG org.apache.http.headers - << Content-Type: text/html; charset=utf-8
+2013-02-17 12:59:28,443 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+2013-02-17 12:59:28,443 [main] DEBUG org.apache.http.headers - << Connection: close
+2013-02-17 12:59:28,443 [main] DEBUG org.apache.http.headers - << Age: 0
+2013-02-17 12:59:28,452 [main] DEBUG org.apache.http.wire - << "9e[\r][\n]"
+2013-02-17 12:59:28,452 [main] DEBUG org.apache.http.wire - << "{"weatherinfo":{"city":"[0xe4][0xb9][0x9d][0xe5][0x8d][0x8e][0xe5][0xb1][0xb1]","cityid":"101221704","temp":"6","WD":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]","WS":"1[0xe7][0xba][0xa7]","SD":"92%","WSE":"1","time":"12:45","isRadar":"0","Radar":""}}"
+2013-02-17 12:59:28,452 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 12:59:28,452 [main] DEBUG org.apache.http.wire - << "0[\r][\n]"
+2013-02-17 12:59:28,453 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 12:59:28,453 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@32137937
+2013-02-17 12:59:28,453 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:8716<->113.108.239.105:80 shut down
+2013-02-17 12:59:28,453 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive for 9223372036854775807 MILLISECONDS
+2013-02-17 13:00:10,060 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.weather.com.cn
+2013-02-17 13:00:10,076 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.weather.com.cn:80
+2013-02-17 13:00:10,125 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+2013-02-17 13:00:10,137 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2013-02-17 13:00:10,137 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2013-02-17 13:00:10,138 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2013-02-17 13:00:10,138 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+2013-02-17 13:00:10,138 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /data/sk/101221704.html HTTP/1.1
+2013-02-17 13:00:10,139 [main] DEBUG org.apache.http.wire - >> "GET /data/sk/101221704.html HTTP/1.1[\r][\n]"
+2013-02-17 13:00:10,140 [main] DEBUG org.apache.http.wire - >> "Host: www.weather.com.cn[\r][\n]"
+2013-02-17 13:00:10,140 [main] DEBUG org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+2013-02-17 13:00:10,140 [main] DEBUG org.apache.http.wire - >> "User-Agent: Apache-HttpClient/4.2.3 (java 1.5)[\r][\n]"
+2013-02-17 13:00:10,140 [main] DEBUG org.apache.http.wire - >> "[\r][\n]"
+2013-02-17 13:00:10,140 [main] DEBUG org.apache.http.headers - >> GET /data/sk/101221704.html HTTP/1.1
+2013-02-17 13:00:10,140 [main] DEBUG org.apache.http.headers - >> Host: www.weather.com.cn
+2013-02-17 13:00:10,141 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+2013-02-17 13:00:10,141 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.2.3 (java 1.5)
+2013-02-17 13:00:10,213 [main] DEBUG org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+2013-02-17 13:00:10,215 [main] DEBUG org.apache.http.wire - << "Server: Apache/2.2.0[\r][\n]"
+2013-02-17 13:00:10,215 [main] DEBUG org.apache.http.wire - << "Date: Sun, 17 Feb 2013 04:59:10 GMT[\r][\n]"
+2013-02-17 13:00:10,215 [main] DEBUG org.apache.http.wire - << "Content-Type: text/html; charset=utf-8[\r][\n]"
+2013-02-17 13:00:10,215 [main] DEBUG org.apache.http.wire - << "Transfer-Encoding: chunked[\r][\n]"
+2013-02-17 13:00:10,216 [main] DEBUG org.apache.http.wire - << "Connection: close[\r][\n]"
+2013-02-17 13:00:10,216 [main] DEBUG org.apache.http.wire - << "Age: 0[\r][\n]"
+2013-02-17 13:00:10,216 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 13:00:10,216 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+2013-02-17 13:00:10,216 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+2013-02-17 13:00:10,216 [main] DEBUG org.apache.http.headers - << Server: Apache/2.2.0
+2013-02-17 13:00:10,217 [main] DEBUG org.apache.http.headers - << Date: Sun, 17 Feb 2013 04:59:10 GMT
+2013-02-17 13:00:10,217 [main] DEBUG org.apache.http.headers - << Content-Type: text/html; charset=utf-8
+2013-02-17 13:00:10,217 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+2013-02-17 13:00:10,217 [main] DEBUG org.apache.http.headers - << Connection: close
+2013-02-17 13:00:10,217 [main] DEBUG org.apache.http.headers - << Age: 0
+2013-02-17 13:00:10,226 [main] DEBUG org.apache.http.wire - << "9e[\r][\n]"
+2013-02-17 13:00:10,226 [main] DEBUG org.apache.http.wire - << "{"weatherinfo":{"city":"[0xe4][0xb9][0x9d][0xe5][0x8d][0x8e][0xe5][0xb1][0xb1]","cityid":"101221704","temp":"6","WD":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]","WS":"1[0xe7][0xba][0xa7]","SD":"92%","WSE":"1","time":"12:45","isRadar":"0","Radar":""}}"
+2013-02-17 13:00:10,226 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 13:00:10,226 [main] DEBUG org.apache.http.wire - << "0[\r][\n]"
+2013-02-17 13:00:10,226 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 13:00:10,226 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@505e9087
+2013-02-17 13:00:10,226 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:8731<->113.108.239.105:80 shut down
+2013-02-17 13:00:10,227 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive for 9223372036854775807 MILLISECONDS
+2013-02-17 13:00:10,234 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.weather.com.cn
+2013-02-17 13:00:10,234 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.weather.com.cn:80
+2013-02-17 13:00:10,262 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+2013-02-17 13:00:10,262 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2013-02-17 13:00:10,262 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2013-02-17 13:00:10,262 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2013-02-17 13:00:10,262 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+2013-02-17 13:00:10,263 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /data/cityinfo/101221704.html HTTP/1.1
+2013-02-17 13:00:10,263 [main] DEBUG org.apache.http.wire - >> "GET /data/cityinfo/101221704.html HTTP/1.1[\r][\n]"
+2013-02-17 13:00:10,263 [main] DEBUG org.apache.http.wire - >> "Host: www.weather.com.cn[\r][\n]"
+2013-02-17 13:00:10,263 [main] DEBUG org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+2013-02-17 13:00:10,263 [main] DEBUG org.apache.http.wire - >> "User-Agent: Apache-HttpClient/4.2.3 (java 1.5)[\r][\n]"
+2013-02-17 13:00:10,263 [main] DEBUG org.apache.http.wire - >> "[\r][\n]"
+2013-02-17 13:00:10,263 [main] DEBUG org.apache.http.headers - >> GET /data/cityinfo/101221704.html HTTP/1.1
+2013-02-17 13:00:10,263 [main] DEBUG org.apache.http.headers - >> Host: www.weather.com.cn
+2013-02-17 13:00:10,263 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+2013-02-17 13:00:10,263 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.2.3 (java 1.5)
+2013-02-17 13:00:10,350 [main] DEBUG org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+2013-02-17 13:00:10,350 [main] DEBUG org.apache.http.wire - << "Server: Apache/2.2.0[\r][\n]"
+2013-02-17 13:00:10,350 [main] DEBUG org.apache.http.wire - << "Date: Sun, 17 Feb 2013 04:59:10 GMT[\r][\n]"
+2013-02-17 13:00:10,350 [main] DEBUG org.apache.http.wire - << "Content-Type: text/html; charset=utf-8[\r][\n]"
+2013-02-17 13:00:10,350 [main] DEBUG org.apache.http.wire - << "Transfer-Encoding: chunked[\r][\n]"
+2013-02-17 13:00:10,350 [main] DEBUG org.apache.http.wire - << "Connection: close[\r][\n]"
+2013-02-17 13:00:10,350 [main] DEBUG org.apache.http.wire - << "Age: 0[\r][\n]"
+2013-02-17 13:00:10,350 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 13:00:10,350 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+2013-02-17 13:00:10,350 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+2013-02-17 13:00:10,350 [main] DEBUG org.apache.http.headers - << Server: Apache/2.2.0
+2013-02-17 13:00:10,350 [main] DEBUG org.apache.http.headers - << Date: Sun, 17 Feb 2013 04:59:10 GMT
+2013-02-17 13:00:10,350 [main] DEBUG org.apache.http.headers - << Content-Type: text/html; charset=utf-8
+2013-02-17 13:00:10,351 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+2013-02-17 13:00:10,351 [main] DEBUG org.apache.http.headers - << Connection: close
+2013-02-17 13:00:10,351 [main] DEBUG org.apache.http.headers - << Age: 0
+2013-02-17 13:00:10,351 [main] DEBUG org.apache.http.wire - << "9a[\r][\n]"
+2013-02-17 13:00:10,351 [main] DEBUG org.apache.http.wire - << "{"weatherinfo":{"city":"[0xe4][0xb9][0x9d][0xe5][0x8d][0x8e][0xe5][0xb1][0xb1]","cityid":"101221704","temp1":"7[0xe2][0x84][0x83]","temp2":"1[0xe2][0x84][0x83]","weather":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","img1":"d7.gif","img2":"n7.gif","ptime":"11:00"}}"
+2013-02-17 13:00:10,351 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 13:00:10,351 [main] DEBUG org.apache.http.wire - << "0[\r][\n]"
+2013-02-17 13:00:10,351 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 13:00:10,351 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@56f47040
+2013-02-17 13:00:10,351 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:8732<->113.108.239.105:80 shut down
+2013-02-17 13:00:10,351 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive for 9223372036854775807 MILLISECONDS
+2013-02-17 13:00:10,359 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://m.weather.com.cn
+2013-02-17 13:00:10,738 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to m.weather.com.cn:80
+2013-02-17 13:00:10,765 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+2013-02-17 13:00:10,765 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2013-02-17 13:00:10,765 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2013-02-17 13:00:10,765 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2013-02-17 13:00:10,765 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+2013-02-17 13:00:10,765 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /data/101221704.html HTTP/1.1
+2013-02-17 13:00:10,765 [main] DEBUG org.apache.http.wire - >> "GET /data/101221704.html HTTP/1.1[\r][\n]"
+2013-02-17 13:00:10,765 [main] DEBUG org.apache.http.wire - >> "Host: m.weather.com.cn[\r][\n]"
+2013-02-17 13:00:10,765 [main] DEBUG org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+2013-02-17 13:00:10,766 [main] DEBUG org.apache.http.wire - >> "User-Agent: Apache-HttpClient/4.2.3 (java 1.5)[\r][\n]"
+2013-02-17 13:00:10,766 [main] DEBUG org.apache.http.wire - >> "[\r][\n]"
+2013-02-17 13:00:10,766 [main] DEBUG org.apache.http.headers - >> GET /data/101221704.html HTTP/1.1
+2013-02-17 13:00:10,766 [main] DEBUG org.apache.http.headers - >> Host: m.weather.com.cn
+2013-02-17 13:00:10,766 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+2013-02-17 13:00:10,766 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.2.3 (java 1.5)
+2013-02-17 13:00:10,791 [main] DEBUG org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+2013-02-17 13:00:10,791 [main] DEBUG org.apache.http.wire - << "Server: nginx/0.7.67[\r][\n]"
+2013-02-17 13:00:10,791 [main] DEBUG org.apache.http.wire - << "Date: Sun, 17 Feb 2013 03:12:46 GMT[\r][\n]"
+2013-02-17 13:00:10,791 [main] DEBUG org.apache.http.wire - << "Content-Type: text/html; charset=utf-8[\r][\n]"
+2013-02-17 13:00:10,791 [main] DEBUG org.apache.http.wire - << "Transfer-Encoding: chunked[\r][\n]"
+2013-02-17 13:00:10,791 [main] DEBUG org.apache.http.wire - << "Connection: keep-alive[\r][\n]"
+2013-02-17 13:00:10,792 [main] DEBUG org.apache.http.wire - << "P3P: CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"[\r][\n]"
+2013-02-17 13:00:10,792 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 13:00:10,792 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+2013-02-17 13:00:10,792 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+2013-02-17 13:00:10,792 [main] DEBUG org.apache.http.headers - << Server: nginx/0.7.67
+2013-02-17 13:00:10,792 [main] DEBUG org.apache.http.headers - << Date: Sun, 17 Feb 2013 03:12:46 GMT
+2013-02-17 13:00:10,792 [main] DEBUG org.apache.http.headers - << Content-Type: text/html; charset=utf-8
+2013-02-17 13:00:10,792 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+2013-02-17 13:00:10,792 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+2013-02-17 13:00:10,792 [main] DEBUG org.apache.http.headers - << P3P: CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
+2013-02-17 13:00:10,793 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+2013-02-17 13:00:10,793 [main] DEBUG org.apache.http.wire - << "76a[\r][\n]"
+2013-02-17 13:00:10,794 [main] DEBUG org.apache.http.wire - << "{"weatherinfo":{"city":"[0xe4][0xb9][0x9d][0xe5][0x8d][0x8e][0xe5][0xb1][0xb1]","city_en":"jiuhuashan","date_y":"2013[0xe5][0xb9][0xb4]2[0xe6][0x9c][0x88]17[0xe6][0x97][0xa5]","date":"","week":"[0xe6][0x98][0x9f][0xe6][0x9c][0x9f][0xe6][0x97][0xa5]","fchh":"11","cityid":"101221704","temp1":"7[0xe2][0x84][0x83]~1[0xe2][0x84][0x83]","temp2":"4[0xe2][0x84][0x83]~-5[0xe2][0x84][0x83]","temp3":"-2[0xe2][0x84][0x83]~-5[0xe2][0x84][0x83]","temp4":"2[0xe2][0x84][0x83]~-2[0xe2][0x84][0x83]","temp5":"4[0xe2][0x84][0x83]~0[0xe2][0x84][0x83]","temp6":"6[0xe2][0x84][0x83]~2[0xe2][0x84][0x83]","tempF1":"44.6[0xe2][0x84][0x89]~33.8[0xe2][0x84][0x89]","tempF2":"39.2[0xe2][0x84][0x89]~23[0xe2][0x84][0x89]","tempF3":"28.4[0xe2][0x84][0x89]~23[0xe2][0x84][0x89]","tempF4":"35.6[0xe2][0x84][0x89]~28.4[0xe2][0x84][0x89]","tempF5":"39.2[0xe2][0x84][0x89]~32[0xe2][0x84][0x89]","tempF6":"42.8[0xe2][0x84][0x89]~35.6[0xe2][0x84][0x89]","weather1":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","weather2":"[0xe4][0xb8][0xad][0xe9][0x9b][0xa8][0xe8][0xbd][0xac][0xe6][0x9a][0xb4][0xe9][0x9b][0xaa]","weather3":"[0xe4][0xb8][0xad][0xe9][0x9b][0xaa][0xe8][0xbd][0xac][0xe9][0x98][0xb4]","weather4":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xaa][0xe8][0xbd][0xac][0xe9][0x9b][0xa8][0xe5][0xa4][0xb9][0xe9][0x9b][0xaa]","weather5":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","weather6":"[0xe9][0x98][0xb4][0xe8][0xbd][0xac][0xe5][0xa4][0x9a][0xe4][0xba][0x91]","img1":"7","img2":"99","img3":"8","img4":"17","img5":"15","img6":"2","img7":"14","img8":"6","img9":"7","img10":"99","img11":"2","img12":"1","img_single":"7","img_title1":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","img_title2":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","img_title3":"[0xe4][0xb8][0xad][0xe9][0x9b][0xa8]","img_title4":"[0xe6][0x9a][0xb4][0xe9][0x9b][0xaa]","img_title5":"[0xe4][0xb8][0xad][0xe9][0x9b][0xaa]","img_title6":"[0xe9][0x98][0xb4]","img_title7":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xaa]","img_title8":"[0xe9][0x9b][0xa8][0xe5][0xa4][0xb9][0xe9][0x9b][0xaa]","img_title9":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","img_title10":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","img_title11":"[0xe9][0x98][0xb4]","img_title12":"[0xe5][0xa4][0x9a][0xe4][0xba][0x91]","img_title_single":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","wind1":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]3-4[0xe7][0xba][0xa7]","wind2":"[0xe5][0x8c][0x97][0xe9][0xa3][0x8e]4-5[0xe7][0xba][0xa7][0xe8][0xbd][0xac]3-4[0xe7][0xba][0xa7]","wind3":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]3-4[0xe7][0xba][0xa7][0xe8][0xbd][0xac][0xe5][0xbe][0xae][0xe9][0xa3][0x8e]","wind4":"[0xe5][0xbe][0xae][0xe9][0xa3][0x8e]","wind5":"[0xe5][0xbe][0xae][0xe9][0xa3][0x8e]","wind6":"[0xe5][0xbe][0xae][0xe9][0xa3][0x8e]","fx1":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]","fx2":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]","fl1":"3-4[0xe7][0xba][0xa7]","fl2":"4-5[0xe7][0xba][0xa7][0xe8][0xbd][0xac]3-4[0xe7][0xba][0xa7]","fl3":"3-4[0xe7][0xba][0xa7][0xe8][0xbd][0xac][0xe5][0xb0][0x8f][0xe4][0xba][0x8e]3[0xe7][0xba][0xa7]","fl4":"[0xe5][0xb0][0x8f][0xe4][0xba][0x8e]3[0xe7][0xba][0xa7]","fl5":"[0xe5][0xb0][0x8f][0xe4][0xba][0x8e]3[0xe7][0xba][0xa7]","fl6":"[0xe5][0xb0][0x8f][0xe4][0xba][0x8e]3[0xe7][0xba][0xa7]","index":"[0xe5][0x86][0xb7]","index_d":"[0xe5][0xa4][0xa9][0xe6][0xb0][0x94][0xe5][0x86][0xb7][0xef][0xbc][0x8c][0xe5][0xbb][0xba][0xe8][0xae][0xae][0xe7][0x9d][0x80][0xe6][0xa3][0x89][0xe6][0x9c][0x8d][0xe3][0x80][0x81][0xe7][0xbe][0xbd][0xe7][0xbb][0x92][0xe6][0x9c][0x8d][0xe3][0x80][0x81][0xe7][0x9a][0xae][0xe5][0xa4][0xb9][0xe5][0x85][0x8b][0xe5][0x8a][0xa0][0xe7][0xbe][0x8a][0xe6][0xaf][0x9b][0xe8][0xa1][0xab][0xe7][0xad][0x89][0xe5][0x86][0xac][0xe5][0xad][0xa3][0xe6][0x9c][0x8d][0xe8][0xa3][0x85][0xe3][0x80][0x82][0xe5][0xb9][0xb4][0xe8][0x80][0x81][0xe4][0xbd][0x93][0xe5][0xbc][0xb1][0xe8][0x80][0x85][0xe5][0xae][0x9c][0xe7][0x9d][0x80][0xe5][0x8e][0x9a][0xe6][0xa3][0x89][0xe8][0xa1][0xa3][0xe3][0x80][0x81][0xe5][0x86][0xac][0xe5][0xa4][0xa7][0xe8][0xa1][0xa3][0xe6][0x88][0x96][0xe5][0x8e][0x9a][0xe7][0xbe][0xbd][0xe7][0xbb][0x92][0xe6][0x9c][0x8d][0xe3][0x80][0x82]","index48":"[0xe5][0xaf][0x92][0xe5][0x86][0xb7]","index48_d":"[0xe5][0xa4][0xa9][0xe6][0xb0][0x94][0xe5][0xaf][0x92][0xe5][0x86][0xb7][0xef][0xbc][0x8c][0xe5][0xbb][0xba][0xe8][0xae][0xae][0xe7][0x9d][0x80][0xe5][0x8e][0x9a][0xe7][0xbe][0xbd][0xe7][0xbb][0x92][0xe6][0x9c][0x8d][0xe3][0x80][0x81][0xe6][0xaf][0x9b][0xe7][0x9a][0xae][0xe5][0xa4][0xa7][0xe8][0xa1][0xa3][0xe5][0x8a][0xa0][0xe5][0x8e][0x9a][0xe6][0xaf][0x9b][0xe8][0xa1][0xa3][0xe7][0xad][0x89][0xe9][0x9a][0x86][0xe5][0x86][0xac][0xe6][0x9c][0x8d][0xe8][0xa3][0x85][0xe3][0x80][0x82][0xe5][0xb9][0xb4][0xe8][0x80][0x81][0xe4][0xbd][0x93][0xe5][0xbc][0xb1][0xe8][0x80][0x85][0xe5][0xb0][0xa4][0xe5][0x85][0xb6][0xe8][0xa6][0x81][0xe6][0xb3][0xa8][0xe6][0x84][0x8f][0xe4][0xbf][0x9d][0xe6][0x9a][0x96][0xe9][0x98][0xb2][0xe5][0x86][0xbb][0xe3][0x80][0x82]","index_uv":"[0xe6][0x9c][0x80][0xe5][0xbc][0xb1]","index48_uv":"[0xe6][0x9c][0x80][0xe5][0xbc][0xb1]","index_xc":"[0xe4][0xb8][0x8d][0xe5][0xae][0x9c]","index_tr":"[0xe4][0xb8][0x80][0xe8][0x88][0xac]","index_co":"[0xe8][0xbe][0x83][0xe8][0x88][0x92][0xe9][0x80][0x82]","st1":"6","st2":"-1","st3":"3","st4":"-8","st5":"-4","st6":"-7","index_cl":"[0xe4][0xb8][0x8d][0xe5][0xae][0x9c]","index_ls":"[0xe4][0xb8][0x8d][0xe5][0xae][0x9c]","index_ag":"[0xe6][0x9e][0x81][0xe4][0xb8][0x8d][0xe6][0x98][0x93][0xe5][0x8f][0x91]"}}"
+2013-02-17 13:00:10,794 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 13:00:10,794 [main] DEBUG org.apache.http.wire - << "0[\r][\n]"
+2013-02-17 13:00:10,794 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 13:00:10,794 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@31531665
+2013-02-17 13:00:10,794 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2013-02-17 13:21:33,363 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.weather.com.cn
+2013-02-17 13:21:33,610 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.weather.com.cn:80
+2013-02-17 13:21:33,654 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+2013-02-17 13:21:33,665 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2013-02-17 13:21:33,665 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2013-02-17 13:21:33,666 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2013-02-17 13:21:33,666 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+2013-02-17 13:21:33,666 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /data/sk/101221704.html HTTP/1.1
+2013-02-17 13:21:33,666 [main] DEBUG org.apache.http.wire - >> "GET /data/sk/101221704.html HTTP/1.1[\r][\n]"
+2013-02-17 13:21:33,667 [main] DEBUG org.apache.http.wire - >> "Host: www.weather.com.cn[\r][\n]"
+2013-02-17 13:21:33,668 [main] DEBUG org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+2013-02-17 13:21:33,668 [main] DEBUG org.apache.http.wire - >> "User-Agent: Apache-HttpClient/4.2.3 (java 1.5)[\r][\n]"
+2013-02-17 13:21:33,668 [main] DEBUG org.apache.http.wire - >> "[\r][\n]"
+2013-02-17 13:21:33,668 [main] DEBUG org.apache.http.headers - >> GET /data/sk/101221704.html HTTP/1.1
+2013-02-17 13:21:33,668 [main] DEBUG org.apache.http.headers - >> Host: www.weather.com.cn
+2013-02-17 13:21:33,668 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+2013-02-17 13:21:33,668 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.2.3 (java 1.5)
+2013-02-17 13:21:33,697 [main] DEBUG org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+2013-02-17 13:21:33,699 [main] DEBUG org.apache.http.wire - << "Server: Apache/2.2.0[\r][\n]"
+2013-02-17 13:21:33,699 [main] DEBUG org.apache.http.wire - << "Date: Sun, 17 Feb 2013 05:16:28 GMT[\r][\n]"
+2013-02-17 13:21:33,699 [main] DEBUG org.apache.http.wire - << "Content-Type: text/html; charset=utf-8[\r][\n]"
+2013-02-17 13:21:33,699 [main] DEBUG org.apache.http.wire - << "Transfer-Encoding: chunked[\r][\n]"
+2013-02-17 13:21:33,700 [main] DEBUG org.apache.http.wire - << "Connection: close[\r][\n]"
+2013-02-17 13:21:33,700 [main] DEBUG org.apache.http.wire - << "Age: 242[\r][\n]"
+2013-02-17 13:21:33,700 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 13:21:33,700 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+2013-02-17 13:21:33,700 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+2013-02-17 13:21:33,700 [main] DEBUG org.apache.http.headers - << Server: Apache/2.2.0
+2013-02-17 13:21:33,701 [main] DEBUG org.apache.http.headers - << Date: Sun, 17 Feb 2013 05:16:28 GMT
+2013-02-17 13:21:33,701 [main] DEBUG org.apache.http.headers - << Content-Type: text/html; charset=utf-8
+2013-02-17 13:21:33,701 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+2013-02-17 13:21:33,701 [main] DEBUG org.apache.http.headers - << Connection: close
+2013-02-17 13:21:33,701 [main] DEBUG org.apache.http.headers - << Age: 242
+2013-02-17 13:21:33,709 [main] DEBUG org.apache.http.wire - << "9e[\r][\n]"
+2013-02-17 13:21:33,710 [main] DEBUG org.apache.http.wire - << "{"weatherinfo":{"city":"[0xe4][0xb9][0x9d][0xe5][0x8d][0x8e][0xe5][0xb1][0xb1]","cityid":"101221704","temp":"6","WD":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]","WS":"1[0xe7][0xba][0xa7]","SD":"92%","WSE":"1","time":"12:45","isRadar":"0","Radar":""}}"
+2013-02-17 13:21:33,710 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 13:21:33,710 [main] DEBUG org.apache.http.wire - << "0[\r][\n]"
+2013-02-17 13:21:33,710 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 13:21:33,710 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@445fc010
+2013-02-17 13:21:33,710 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:9052<->113.108.239.115:80 shut down
+2013-02-17 13:21:33,710 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive for 9223372036854775807 MILLISECONDS
+2013-02-17 14:34:57,932 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.weather.com.cn
+2013-02-17 14:34:57,947 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.weather.com.cn:80
+2013-02-17 14:34:57,995 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+2013-02-17 14:34:58,007 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2013-02-17 14:34:58,007 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2013-02-17 14:34:58,007 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2013-02-17 14:34:58,007 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+2013-02-17 14:34:58,008 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /data/sk/101221704.html HTTP/1.1
+2013-02-17 14:34:58,008 [main] DEBUG org.apache.http.wire - >> "GET /data/sk/101221704.html HTTP/1.1[\r][\n]"
+2013-02-17 14:34:58,009 [main] DEBUG org.apache.http.wire - >> "Host: www.weather.com.cn[\r][\n]"
+2013-02-17 14:34:58,009 [main] DEBUG org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+2013-02-17 14:34:58,009 [main] DEBUG org.apache.http.wire - >> "User-Agent: Apache-HttpClient/4.2.3 (java 1.5)[\r][\n]"
+2013-02-17 14:34:58,009 [main] DEBUG org.apache.http.wire - >> "[\r][\n]"
+2013-02-17 14:34:58,009 [main] DEBUG org.apache.http.headers - >> GET /data/sk/101221704.html HTTP/1.1
+2013-02-17 14:34:58,010 [main] DEBUG org.apache.http.headers - >> Host: www.weather.com.cn
+2013-02-17 14:34:58,010 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+2013-02-17 14:34:58,010 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.2.3 (java 1.5)
+2013-02-17 14:34:58,081 [main] DEBUG org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+2013-02-17 14:34:58,083 [main] DEBUG org.apache.http.wire - << "Server: Apache/2.2.0[\r][\n]"
+2013-02-17 14:34:58,083 [main] DEBUG org.apache.http.wire - << "Date: Sun, 17 Feb 2013 06:33:57 GMT[\r][\n]"
+2013-02-17 14:34:58,083 [main] DEBUG org.apache.http.wire - << "Content-Type: text/html; charset=utf-8[\r][\n]"
+2013-02-17 14:34:58,083 [main] DEBUG org.apache.http.wire - << "Transfer-Encoding: chunked[\r][\n]"
+2013-02-17 14:34:58,083 [main] DEBUG org.apache.http.wire - << "Connection: close[\r][\n]"
+2013-02-17 14:34:58,083 [main] DEBUG org.apache.http.wire - << "Age: 0[\r][\n]"
+2013-02-17 14:34:58,084 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 14:34:58,084 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+2013-02-17 14:34:58,084 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+2013-02-17 14:34:58,084 [main] DEBUG org.apache.http.headers - << Server: Apache/2.2.0
+2013-02-17 14:34:58,084 [main] DEBUG org.apache.http.headers - << Date: Sun, 17 Feb 2013 06:33:57 GMT
+2013-02-17 14:34:58,084 [main] DEBUG org.apache.http.headers - << Content-Type: text/html; charset=utf-8
+2013-02-17 14:34:58,085 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+2013-02-17 14:34:58,085 [main] DEBUG org.apache.http.headers - << Connection: close
+2013-02-17 14:34:58,085 [main] DEBUG org.apache.http.headers - << Age: 0
+2013-02-17 14:34:58,093 [main] DEBUG org.apache.http.wire - << "9e[\r][\n]"
+2013-02-17 14:34:58,094 [main] DEBUG org.apache.http.wire - << "{"weatherinfo":{"city":"[0xe4][0xb9][0x9d][0xe5][0x8d][0x8e][0xe5][0xb1][0xb1]","cityid":"101221704","temp":"6","WD":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]","WS":"1[0xe7][0xba][0xa7]","SD":"95%","WSE":"1","time":"14:20","isRadar":"0","Radar":""}}"
+2013-02-17 14:34:58,094 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 14:34:58,094 [main] DEBUG org.apache.http.wire - << "0[\r][\n]"
+2013-02-17 14:34:58,094 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 14:34:58,094 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2605d6a3
+2013-02-17 14:34:58,094 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:11032<->113.108.239.105:80 shut down
+2013-02-17 14:34:58,095 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive for 9223372036854775807 MILLISECONDS
+2013-02-17 16:08:10,937 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://m.weather.com.cn
+2013-02-17 16:08:11,227 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to m.weather.com.cn:80
+2013-02-17 16:08:11,273 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+2013-02-17 16:08:11,284 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2013-02-17 16:08:11,284 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2013-02-17 16:08:11,285 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2013-02-17 16:08:11,285 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+2013-02-17 16:08:11,285 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /data/101221704.html HTTP/1.1
+2013-02-17 16:08:11,286 [main] DEBUG org.apache.http.wire - >> "GET /data/101221704.html HTTP/1.1[\r][\n]"
+2013-02-17 16:08:11,287 [main] DEBUG org.apache.http.wire - >> "Host: m.weather.com.cn[\r][\n]"
+2013-02-17 16:08:11,287 [main] DEBUG org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+2013-02-17 16:08:11,287 [main] DEBUG org.apache.http.wire - >> "User-Agent: Apache-HttpClient/4.2.3 (java 1.5)[\r][\n]"
+2013-02-17 16:08:11,287 [main] DEBUG org.apache.http.wire - >> "[\r][\n]"
+2013-02-17 16:08:11,287 [main] DEBUG org.apache.http.headers - >> GET /data/101221704.html HTTP/1.1
+2013-02-17 16:08:11,287 [main] DEBUG org.apache.http.headers - >> Host: m.weather.com.cn
+2013-02-17 16:08:11,287 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+2013-02-17 16:08:11,287 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.2.3 (java 1.5)
+2013-02-17 16:08:11,314 [main] DEBUG org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+2013-02-17 16:08:11,316 [main] DEBUG org.apache.http.wire - << "Server: nginx/0.7.67[\r][\n]"
+2013-02-17 16:08:11,316 [main] DEBUG org.apache.http.wire - << "Date: Sun, 17 Feb 2013 08:08:05 GMT[\r][\n]"
+2013-02-17 16:08:11,316 [main] DEBUG org.apache.http.wire - << "Content-Type: text/html; charset=utf-8[\r][\n]"
+2013-02-17 16:08:11,317 [main] DEBUG org.apache.http.wire - << "Transfer-Encoding: chunked[\r][\n]"
+2013-02-17 16:08:11,317 [main] DEBUG org.apache.http.wire - << "Connection: keep-alive[\r][\n]"
+2013-02-17 16:08:11,317 [main] DEBUG org.apache.http.wire - << "P3P: CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"[\r][\n]"
+2013-02-17 16:08:11,317 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 16:08:11,317 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+2013-02-17 16:08:11,318 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+2013-02-17 16:08:11,318 [main] DEBUG org.apache.http.headers - << Server: nginx/0.7.67
+2013-02-17 16:08:11,318 [main] DEBUG org.apache.http.headers - << Date: Sun, 17 Feb 2013 08:08:05 GMT
+2013-02-17 16:08:11,318 [main] DEBUG org.apache.http.headers - << Content-Type: text/html; charset=utf-8
+2013-02-17 16:08:11,318 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+2013-02-17 16:08:11,318 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+2013-02-17 16:08:11,318 [main] DEBUG org.apache.http.headers - << P3P: CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
+2013-02-17 16:08:11,323 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+2013-02-17 16:08:11,327 [main] DEBUG org.apache.http.wire - << "76a[\r][\n]"
+2013-02-17 16:08:11,328 [main] DEBUG org.apache.http.wire - << "{"weatherinfo":{"city":"[0xe4][0xb9][0x9d][0xe5][0x8d][0x8e][0xe5][0xb1][0xb1]","city_en":"jiuhuashan","date_y":"2013[0xe5][0xb9][0xb4]2[0xe6][0x9c][0x88]17[0xe6][0x97][0xa5]","date":"","week":"[0xe6][0x98][0x9f][0xe6][0x9c][0x9f][0xe6][0x97][0xa5]","fchh":"11","cityid":"101221704","temp1":"7[0xe2][0x84][0x83]~1[0xe2][0x84][0x83]","temp2":"4[0xe2][0x84][0x83]~-5[0xe2][0x84][0x83]","temp3":"-2[0xe2][0x84][0x83]~-5[0xe2][0x84][0x83]","temp4":"2[0xe2][0x84][0x83]~-2[0xe2][0x84][0x83]","temp5":"4[0xe2][0x84][0x83]~0[0xe2][0x84][0x83]","temp6":"6[0xe2][0x84][0x83]~2[0xe2][0x84][0x83]","tempF1":"44.6[0xe2][0x84][0x89]~33.8[0xe2][0x84][0x89]","tempF2":"39.2[0xe2][0x84][0x89]~23[0xe2][0x84][0x89]","tempF3":"28.4[0xe2][0x84][0x89]~23[0xe2][0x84][0x89]","tempF4":"35.6[0xe2][0x84][0x89]~28.4[0xe2][0x84][0x89]","tempF5":"39.2[0xe2][0x84][0x89]~32[0xe2][0x84][0x89]","tempF6":"42.8[0xe2][0x84][0x89]~35.6[0xe2][0x84][0x89]","weather1":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","weather2":"[0xe4][0xb8][0xad][0xe9][0x9b][0xa8][0xe8][0xbd][0xac][0xe6][0x9a][0xb4][0xe9][0x9b][0xaa]","weather3":"[0xe4][0xb8][0xad][0xe9][0x9b][0xaa][0xe8][0xbd][0xac][0xe9][0x98][0xb4]","weather4":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xaa][0xe8][0xbd][0xac][0xe9][0x9b][0xa8][0xe5][0xa4][0xb9][0xe9][0x9b][0xaa]","weather5":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","weather6":"[0xe9][0x98][0xb4][0xe8][0xbd][0xac][0xe5][0xa4][0x9a][0xe4][0xba][0x91]","img1":"7","img2":"99","img3":"8","img4":"17","img5":"15","img6":"2","img7":"14","img8":"6","img9":"7","img10":"99","img11":"2","img12":"1","img_single":"7","img_title1":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","img_title2":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","img_title3":"[0xe4][0xb8][0xad][0xe9][0x9b][0xa8]","img_title4":"[0xe6][0x9a][0xb4][0xe9][0x9b][0xaa]","img_title5":"[0xe4][0xb8][0xad][0xe9][0x9b][0xaa]","img_title6":"[0xe9][0x98][0xb4]","img_title7":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xaa]","img_title8":"[0xe9][0x9b][0xa8][0xe5][0xa4][0xb9][0xe9][0x9b][0xaa]","img_title9":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","img_title10":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","img_title11":"[0xe9][0x98][0xb4]","img_title12":"[0xe5][0xa4][0x9a][0xe4][0xba][0x91]","img_title_single":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","wind1":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]3-4[0xe7][0xba][0xa7]","wind2":"[0xe5][0x8c][0x97][0xe9][0xa3][0x8e]4-5[0xe7][0xba][0xa7][0xe8][0xbd][0xac]3-4[0xe7][0xba][0xa7]","wind3":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]3-4[0xe7][0xba][0xa7][0xe8][0xbd][0xac][0xe5][0xbe][0xae][0xe9][0xa3][0x8e]","wind4":"[0xe5][0xbe][0xae][0xe9][0xa3][0x8e]","wind5":"[0xe5][0xbe][0xae][0xe9][0xa3][0x8e]","wind6":"[0xe5][0xbe][0xae][0xe9][0xa3][0x8e]","fx1":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]","fx2":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]","fl1":"3-4[0xe7][0xba][0xa7]","fl2":"4-5[0xe7][0xba][0xa7][0xe8][0xbd][0xac]3-4[0xe7][0xba][0xa7]","fl3":"3-4[0xe7][0xba][0xa7][0xe8][0xbd][0xac][0xe5][0xb0][0x8f][0xe4][0xba][0x8e]3[0xe7][0xba][0xa7]","fl4":"[0xe5][0xb0][0x8f][0xe4][0xba][0x8e]3[0xe7][0xba][0xa7]","fl5":"[0xe5][0xb0][0x8f][0xe4][0xba][0x8e]3[0xe7][0xba][0xa7]","fl6":"[0xe5][0xb0][0x8f][0xe4][0xba][0x8e]3[0xe7][0xba][0xa7]","index":"[0xe5][0x86][0xb7]","index_d":"[0xe5][0xa4][0xa9][0xe6][0xb0][0x94][0xe5][0x86][0xb7][0xef][0xbc][0x8c][0xe5][0xbb][0xba][0xe8][0xae][0xae][0xe7][0x9d][0x80][0xe6][0xa3][0x89][0xe6][0x9c][0x8d][0xe3][0x80][0x81][0xe7][0xbe][0xbd][0xe7][0xbb][0x92][0xe6][0x9c][0x8d][0xe3][0x80][0x81][0xe7][0x9a][0xae][0xe5][0xa4][0xb9][0xe5][0x85][0x8b][0xe5][0x8a][0xa0][0xe7][0xbe][0x8a][0xe6][0xaf][0x9b][0xe8][0xa1][0xab][0xe7][0xad][0x89][0xe5][0x86][0xac][0xe5][0xad][0xa3][0xe6][0x9c][0x8d][0xe8][0xa3][0x85][0xe3][0x80][0x82][0xe5][0xb9][0xb4][0xe8][0x80][0x81][0xe4][0xbd][0x93][0xe5][0xbc][0xb1][0xe8][0x80][0x85][0xe5][0xae][0x9c][0xe7][0x9d][0x80][0xe5][0x8e][0x9a][0xe6][0xa3][0x89][0xe8][0xa1][0xa3][0xe3][0x80][0x81][0xe5][0x86][0xac][0xe5][0xa4][0xa7][0xe8][0xa1][0xa3][0xe6][0x88][0x96][0xe5][0x8e][0x9a][0xe7][0xbe][0xbd][0xe7][0xbb][0x92][0xe6][0x9c][0x8d][0xe3][0x80][0x82]","index48":"[0xe5][0xaf][0x92][0xe5][0x86][0xb7]","index48_d":"[0xe5][0xa4][0xa9][0xe6][0xb0][0x94][0xe5][0xaf][0x92][0xe5][0x86][0xb7][0xef][0xbc][0x8c][0xe5][0xbb][0xba][0xe8][0xae][0xae][0xe7][0x9d][0x80][0xe5][0x8e][0x9a][0xe7][0xbe][0xbd][0xe7][0xbb][0x92][0xe6][0x9c][0x8d][0xe3][0x80][0x81][0xe6][0xaf][0x9b][0xe7][0x9a][0xae][0xe5][0xa4][0xa7][0xe8][0xa1][0xa3][0xe5][0x8a][0xa0][0xe5][0x8e][0x9a][0xe6][0xaf][0x9b][0xe8][0xa1][0xa3][0xe7][0xad][0x89][0xe9][0x9a][0x86][0xe5][0x86][0xac][0xe6][0x9c][0x8d][0xe8][0xa3][0x85][0xe3][0x80][0x82][0xe5][0xb9][0xb4][0xe8][0x80][0x81][0xe4][0xbd][0x93][0xe5][0xbc][0xb1][0xe8][0x80][0x85][0xe5][0xb0][0xa4][0xe5][0x85][0xb6][0xe8][0xa6][0x81][0xe6][0xb3][0xa8][0xe6][0x84][0x8f][0xe4][0xbf][0x9d][0xe6][0x9a][0x96][0xe9][0x98][0xb2][0xe5][0x86][0xbb][0xe3][0x80][0x82]","index_uv":"[0xe6][0x9c][0x80][0xe5][0xbc][0xb1]","index48_uv":"[0xe6][0x9c][0x80][0xe5][0xbc][0xb1]","index_xc":"[0xe4][0xb8][0x8d][0xe5][0xae][0x9c]","index_tr":"[0xe4][0xb8][0x80][0xe8][0x88][0xac]","index_co":"[0xe8][0xbe][0x83][0xe8][0x88][0x92][0xe9][0x80][0x82]","st1":"6","st2":"-1","st3":"3","st4":"-8","st5":"-4","st6":"-7","index_cl":"[0xe4][0xb8][0x8d][0xe5][0xae][0x9c]","index_ls":"[0xe4][0xb8][0x8d][0xe5][0xae][0x9c]","index_ag":"[0xe6][0x9e][0x81][0xe4][0xb8][0x8d][0xe6][0x98][0x93][0xe5][0x8f][0x91]"}}"
+2013-02-17 16:08:11,329 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 16:08:11,329 [main] DEBUG org.apache.http.wire - << "0[\r][\n]"
+2013-02-17 16:08:11,329 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 16:08:11,329 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@59930b4b
+2013-02-17 16:08:11,329 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2013-02-17 16:10:20,203 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://m.weather.com.cn
+2013-02-17 16:10:20,491 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to m.weather.com.cn:80
+2013-02-17 16:10:20,534 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+2013-02-17 16:10:20,545 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2013-02-17 16:10:20,545 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2013-02-17 16:10:20,546 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2013-02-17 16:10:20,546 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+2013-02-17 16:10:20,546 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /data/101221704.html HTTP/1.1
+2013-02-17 16:10:20,547 [main] DEBUG org.apache.http.wire - >> "GET /data/101221704.html HTTP/1.1[\r][\n]"
+2013-02-17 16:10:20,548 [main] DEBUG org.apache.http.wire - >> "Host: m.weather.com.cn[\r][\n]"
+2013-02-17 16:10:20,548 [main] DEBUG org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+2013-02-17 16:10:20,548 [main] DEBUG org.apache.http.wire - >> "User-Agent: Apache-HttpClient/4.2.3 (java 1.5)[\r][\n]"
+2013-02-17 16:10:20,548 [main] DEBUG org.apache.http.wire - >> "[\r][\n]"
+2013-02-17 16:10:20,548 [main] DEBUG org.apache.http.headers - >> GET /data/101221704.html HTTP/1.1
+2013-02-17 16:10:20,548 [main] DEBUG org.apache.http.headers - >> Host: m.weather.com.cn
+2013-02-17 16:10:20,548 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+2013-02-17 16:10:20,548 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.2.3 (java 1.5)
+2013-02-17 16:10:20,575 [main] DEBUG org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+2013-02-17 16:10:20,576 [main] DEBUG org.apache.http.wire - << "Server: nginx/0.7.67[\r][\n]"
+2013-02-17 16:10:20,577 [main] DEBUG org.apache.http.wire - << "Date: Sun, 17 Feb 2013 08:10:18 GMT[\r][\n]"
+2013-02-17 16:10:20,577 [main] DEBUG org.apache.http.wire - << "Content-Type: text/html; charset=utf-8[\r][\n]"
+2013-02-17 16:10:20,577 [main] DEBUG org.apache.http.wire - << "Transfer-Encoding: chunked[\r][\n]"
+2013-02-17 16:10:20,577 [main] DEBUG org.apache.http.wire - << "Connection: keep-alive[\r][\n]"
+2013-02-17 16:10:20,577 [main] DEBUG org.apache.http.wire - << "P3P: CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"[\r][\n]"
+2013-02-17 16:10:20,577 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 16:10:20,578 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+2013-02-17 16:10:20,578 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+2013-02-17 16:10:20,578 [main] DEBUG org.apache.http.headers - << Server: nginx/0.7.67
+2013-02-17 16:10:20,578 [main] DEBUG org.apache.http.headers - << Date: Sun, 17 Feb 2013 08:10:18 GMT
+2013-02-17 16:10:20,578 [main] DEBUG org.apache.http.headers - << Content-Type: text/html; charset=utf-8
+2013-02-17 16:10:20,578 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+2013-02-17 16:10:20,578 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+2013-02-17 16:10:20,578 [main] DEBUG org.apache.http.headers - << P3P: CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
+2013-02-17 16:10:20,584 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+2013-02-17 16:10:20,587 [main] DEBUG org.apache.http.wire - << "76a[\r][\n]"
+2013-02-17 16:10:20,588 [main] DEBUG org.apache.http.wire - << "{"weatherinfo":{"city":"[0xe4][0xb9][0x9d][0xe5][0x8d][0x8e][0xe5][0xb1][0xb1]","city_en":"jiuhuashan","date_y":"2013[0xe5][0xb9][0xb4]2[0xe6][0x9c][0x88]17[0xe6][0x97][0xa5]","date":"","week":"[0xe6][0x98][0x9f][0xe6][0x9c][0x9f][0xe6][0x97][0xa5]","fchh":"11","cityid":"101221704","temp1":"7[0xe2][0x84][0x83]~1[0xe2][0x84][0x83]","temp2":"4[0xe2][0x84][0x83]~-5[0xe2][0x84][0x83]","temp3":"-2[0xe2][0x84][0x83]~-5[0xe2][0x84][0x83]","temp4":"2[0xe2][0x84][0x83]~-2[0xe2][0x84][0x83]","temp5":"4[0xe2][0x84][0x83]~0[0xe2][0x84][0x83]","temp6":"6[0xe2][0x84][0x83]~2[0xe2][0x84][0x83]","tempF1":"44.6[0xe2][0x84][0x89]~33.8[0xe2][0x84][0x89]","tempF2":"39.2[0xe2][0x84][0x89]~23[0xe2][0x84][0x89]","tempF3":"28.4[0xe2][0x84][0x89]~23[0xe2][0x84][0x89]","tempF4":"35.6[0xe2][0x84][0x89]~28.4[0xe2][0x84][0x89]","tempF5":"39.2[0xe2][0x84][0x89]~32[0xe2][0x84][0x89]","tempF6":"42.8[0xe2][0x84][0x89]~35.6[0xe2][0x84][0x89]","weather1":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","weather2":"[0xe4][0xb8][0xad][0xe9][0x9b][0xa8][0xe8][0xbd][0xac][0xe6][0x9a][0xb4][0xe9][0x9b][0xaa]","weather3":"[0xe4][0xb8][0xad][0xe9][0x9b][0xaa][0xe8][0xbd][0xac][0xe9][0x98][0xb4]","weather4":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xaa][0xe8][0xbd][0xac][0xe9][0x9b][0xa8][0xe5][0xa4][0xb9][0xe9][0x9b][0xaa]","weather5":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","weather6":"[0xe9][0x98][0xb4][0xe8][0xbd][0xac][0xe5][0xa4][0x9a][0xe4][0xba][0x91]","img1":"7","img2":"99","img3":"8","img4":"17","img5":"15","img6":"2","img7":"14","img8":"6","img9":"7","img10":"99","img11":"2","img12":"1","img_single":"7","img_title1":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","img_title2":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","img_title3":"[0xe4][0xb8][0xad][0xe9][0x9b][0xa8]","img_title4":"[0xe6][0x9a][0xb4][0xe9][0x9b][0xaa]","img_title5":"[0xe4][0xb8][0xad][0xe9][0x9b][0xaa]","img_title6":"[0xe9][0x98][0xb4]","img_title7":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xaa]","img_title8":"[0xe9][0x9b][0xa8][0xe5][0xa4][0xb9][0xe9][0x9b][0xaa]","img_title9":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","img_title10":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","img_title11":"[0xe9][0x98][0xb4]","img_title12":"[0xe5][0xa4][0x9a][0xe4][0xba][0x91]","img_title_single":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","wind1":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]3-4[0xe7][0xba][0xa7]","wind2":"[0xe5][0x8c][0x97][0xe9][0xa3][0x8e]4-5[0xe7][0xba][0xa7][0xe8][0xbd][0xac]3-4[0xe7][0xba][0xa7]","wind3":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]3-4[0xe7][0xba][0xa7][0xe8][0xbd][0xac][0xe5][0xbe][0xae][0xe9][0xa3][0x8e]","wind4":"[0xe5][0xbe][0xae][0xe9][0xa3][0x8e]","wind5":"[0xe5][0xbe][0xae][0xe9][0xa3][0x8e]","wind6":"[0xe5][0xbe][0xae][0xe9][0xa3][0x8e]","fx1":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]","fx2":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]","fl1":"3-4[0xe7][0xba][0xa7]","fl2":"4-5[0xe7][0xba][0xa7][0xe8][0xbd][0xac]3-4[0xe7][0xba][0xa7]","fl3":"3-4[0xe7][0xba][0xa7][0xe8][0xbd][0xac][0xe5][0xb0][0x8f][0xe4][0xba][0x8e]3[0xe7][0xba][0xa7]","fl4":"[0xe5][0xb0][0x8f][0xe4][0xba][0x8e]3[0xe7][0xba][0xa7]","fl5":"[0xe5][0xb0][0x8f][0xe4][0xba][0x8e]3[0xe7][0xba][0xa7]","fl6":"[0xe5][0xb0][0x8f][0xe4][0xba][0x8e]3[0xe7][0xba][0xa7]","index":"[0xe5][0x86][0xb7]","index_d":"[0xe5][0xa4][0xa9][0xe6][0xb0][0x94][0xe5][0x86][0xb7][0xef][0xbc][0x8c][0xe5][0xbb][0xba][0xe8][0xae][0xae][0xe7][0x9d][0x80][0xe6][0xa3][0x89][0xe6][0x9c][0x8d][0xe3][0x80][0x81][0xe7][0xbe][0xbd][0xe7][0xbb][0x92][0xe6][0x9c][0x8d][0xe3][0x80][0x81][0xe7][0x9a][0xae][0xe5][0xa4][0xb9][0xe5][0x85][0x8b][0xe5][0x8a][0xa0][0xe7][0xbe][0x8a][0xe6][0xaf][0x9b][0xe8][0xa1][0xab][0xe7][0xad][0x89][0xe5][0x86][0xac][0xe5][0xad][0xa3][0xe6][0x9c][0x8d][0xe8][0xa3][0x85][0xe3][0x80][0x82][0xe5][0xb9][0xb4][0xe8][0x80][0x81][0xe4][0xbd][0x93][0xe5][0xbc][0xb1][0xe8][0x80][0x85][0xe5][0xae][0x9c][0xe7][0x9d][0x80][0xe5][0x8e][0x9a][0xe6][0xa3][0x89][0xe8][0xa1][0xa3][0xe3][0x80][0x81][0xe5][0x86][0xac][0xe5][0xa4][0xa7][0xe8][0xa1][0xa3][0xe6][0x88][0x96][0xe5][0x8e][0x9a][0xe7][0xbe][0xbd][0xe7][0xbb][0x92][0xe6][0x9c][0x8d][0xe3][0x80][0x82]","index48":"[0xe5][0xaf][0x92][0xe5][0x86][0xb7]","index48_d":"[0xe5][0xa4][0xa9][0xe6][0xb0][0x94][0xe5][0xaf][0x92][0xe5][0x86][0xb7][0xef][0xbc][0x8c][0xe5][0xbb][0xba][0xe8][0xae][0xae][0xe7][0x9d][0x80][0xe5][0x8e][0x9a][0xe7][0xbe][0xbd][0xe7][0xbb][0x92][0xe6][0x9c][0x8d][0xe3][0x80][0x81][0xe6][0xaf][0x9b][0xe7][0x9a][0xae][0xe5][0xa4][0xa7][0xe8][0xa1][0xa3][0xe5][0x8a][0xa0][0xe5][0x8e][0x9a][0xe6][0xaf][0x9b][0xe8][0xa1][0xa3][0xe7][0xad][0x89][0xe9][0x9a][0x86][0xe5][0x86][0xac][0xe6][0x9c][0x8d][0xe8][0xa3][0x85][0xe3][0x80][0x82][0xe5][0xb9][0xb4][0xe8][0x80][0x81][0xe4][0xbd][0x93][0xe5][0xbc][0xb1][0xe8][0x80][0x85][0xe5][0xb0][0xa4][0xe5][0x85][0xb6][0xe8][0xa6][0x81][0xe6][0xb3][0xa8][0xe6][0x84][0x8f][0xe4][0xbf][0x9d][0xe6][0x9a][0x96][0xe9][0x98][0xb2][0xe5][0x86][0xbb][0xe3][0x80][0x82]","index_uv":"[0xe6][0x9c][0x80][0xe5][0xbc][0xb1]","index48_uv":"[0xe6][0x9c][0x80][0xe5][0xbc][0xb1]","index_xc":"[0xe4][0xb8][0x8d][0xe5][0xae][0x9c]","index_tr":"[0xe4][0xb8][0x80][0xe8][0x88][0xac]","index_co":"[0xe8][0xbe][0x83][0xe8][0x88][0x92][0xe9][0x80][0x82]","st1":"6","st2":"-1","st3":"3","st4":"-8","st5":"-4","st6":"-7","index_cl":"[0xe4][0xb8][0x8d][0xe5][0xae][0x9c]","index_ls":"[0xe4][0xb8][0x8d][0xe5][0xae][0x9c]","index_ag":"[0xe6][0x9e][0x81][0xe4][0xb8][0x8d][0xe6][0x98][0x93][0xe5][0x8f][0x91]"}}"
+2013-02-17 16:10:20,589 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 16:10:20,589 [main] DEBUG org.apache.http.wire - << "0[\r][\n]"
+2013-02-17 16:10:20,589 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 16:10:20,589 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@59930b4b
+2013-02-17 16:10:20,589 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2013-02-17 16:10:34,308 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://m.weather.com.cn
+2013-02-17 16:10:34,766 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to m.weather.com.cn:80
+2013-02-17 16:10:34,813 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+2013-02-17 16:10:34,825 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2013-02-17 16:10:34,825 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2013-02-17 16:10:34,825 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2013-02-17 16:10:34,825 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+2013-02-17 16:10:34,826 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /data/101221704.html HTTP/1.1
+2013-02-17 16:10:34,826 [main] DEBUG org.apache.http.wire - >> "GET /data/101221704.html HTTP/1.1[\r][\n]"
+2013-02-17 16:10:34,827 [main] DEBUG org.apache.http.wire - >> "Host: m.weather.com.cn[\r][\n]"
+2013-02-17 16:10:34,827 [main] DEBUG org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+2013-02-17 16:10:34,827 [main] DEBUG org.apache.http.wire - >> "User-Agent: Apache-HttpClient/4.2.3 (java 1.5)[\r][\n]"
+2013-02-17 16:10:34,827 [main] DEBUG org.apache.http.wire - >> "[\r][\n]"
+2013-02-17 16:10:34,827 [main] DEBUG org.apache.http.headers - >> GET /data/101221704.html HTTP/1.1
+2013-02-17 16:10:34,827 [main] DEBUG org.apache.http.headers - >> Host: m.weather.com.cn
+2013-02-17 16:10:34,827 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+2013-02-17 16:10:34,828 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.2.3 (java 1.5)
+2013-02-17 16:10:34,855 [main] DEBUG org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+2013-02-17 16:10:34,856 [main] DEBUG org.apache.http.wire - << "Server: nginx/0.7.67[\r][\n]"
+2013-02-17 16:10:34,857 [main] DEBUG org.apache.http.wire - << "Date: Sun, 17 Feb 2013 08:10:30 GMT[\r][\n]"
+2013-02-17 16:10:34,857 [main] DEBUG org.apache.http.wire - << "Content-Type: text/html; charset=utf-8[\r][\n]"
+2013-02-17 16:10:34,857 [main] DEBUG org.apache.http.wire - << "Transfer-Encoding: chunked[\r][\n]"
+2013-02-17 16:10:34,857 [main] DEBUG org.apache.http.wire - << "Connection: keep-alive[\r][\n]"
+2013-02-17 16:10:34,857 [main] DEBUG org.apache.http.wire - << "P3P: CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"[\r][\n]"
+2013-02-17 16:10:34,857 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 16:10:34,858 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+2013-02-17 16:10:34,858 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+2013-02-17 16:10:34,858 [main] DEBUG org.apache.http.headers - << Server: nginx/0.7.67
+2013-02-17 16:10:34,858 [main] DEBUG org.apache.http.headers - << Date: Sun, 17 Feb 2013 08:10:30 GMT
+2013-02-17 16:10:34,858 [main] DEBUG org.apache.http.headers - << Content-Type: text/html; charset=utf-8
+2013-02-17 16:10:34,858 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+2013-02-17 16:10:34,858 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+2013-02-17 16:10:34,858 [main] DEBUG org.apache.http.headers - << P3P: CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
+2013-02-17 16:10:34,864 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+2013-02-17 16:10:34,867 [main] DEBUG org.apache.http.wire - << "76a[\r][\n]"
+2013-02-17 16:10:34,869 [main] DEBUG org.apache.http.wire - << "{"weatherinfo":{"city":"[0xe4][0xb9][0x9d][0xe5][0x8d][0x8e][0xe5][0xb1][0xb1]","city_en":"jiuhuashan","date_y":"2013[0xe5][0xb9][0xb4]2[0xe6][0x9c][0x88]17[0xe6][0x97][0xa5]","date":"","week":"[0xe6][0x98][0x9f][0xe6][0x9c][0x9f][0xe6][0x97][0xa5]","fchh":"11","cityid":"101221704","temp1":"7[0xe2][0x84][0x83]~1[0xe2][0x84][0x83]","temp2":"4[0xe2][0x84][0x83]~-5[0xe2][0x84][0x83]","temp3":"-2[0xe2][0x84][0x83]~-5[0xe2][0x84][0x83]","temp4":"2[0xe2][0x84][0x83]~-2[0xe2][0x84][0x83]","temp5":"4[0xe2][0x84][0x83]~0[0xe2][0x84][0x83]","temp6":"6[0xe2][0x84][0x83]~2[0xe2][0x84][0x83]","tempF1":"44.6[0xe2][0x84][0x89]~33.8[0xe2][0x84][0x89]","tempF2":"39.2[0xe2][0x84][0x89]~23[0xe2][0x84][0x89]","tempF3":"28.4[0xe2][0x84][0x89]~23[0xe2][0x84][0x89]","tempF4":"35.6[0xe2][0x84][0x89]~28.4[0xe2][0x84][0x89]","tempF5":"39.2[0xe2][0x84][0x89]~32[0xe2][0x84][0x89]","tempF6":"42.8[0xe2][0x84][0x89]~35.6[0xe2][0x84][0x89]","weather1":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","weather2":"[0xe4][0xb8][0xad][0xe9][0x9b][0xa8][0xe8][0xbd][0xac][0xe6][0x9a][0xb4][0xe9][0x9b][0xaa]","weather3":"[0xe4][0xb8][0xad][0xe9][0x9b][0xaa][0xe8][0xbd][0xac][0xe9][0x98][0xb4]","weather4":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xaa][0xe8][0xbd][0xac][0xe9][0x9b][0xa8][0xe5][0xa4][0xb9][0xe9][0x9b][0xaa]","weather5":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","weather6":"[0xe9][0x98][0xb4][0xe8][0xbd][0xac][0xe5][0xa4][0x9a][0xe4][0xba][0x91]","img1":"7","img2":"99","img3":"8","img4":"17","img5":"15","img6":"2","img7":"14","img8":"6","img9":"7","img10":"99","img11":"2","img12":"1","img_single":"7","img_title1":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","img_title2":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","img_title3":"[0xe4][0xb8][0xad][0xe9][0x9b][0xa8]","img_title4":"[0xe6][0x9a][0xb4][0xe9][0x9b][0xaa]","img_title5":"[0xe4][0xb8][0xad][0xe9][0x9b][0xaa]","img_title6":"[0xe9][0x98][0xb4]","img_title7":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xaa]","img_title8":"[0xe9][0x9b][0xa8][0xe5][0xa4][0xb9][0xe9][0x9b][0xaa]","img_title9":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","img_title10":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","img_title11":"[0xe9][0x98][0xb4]","img_title12":"[0xe5][0xa4][0x9a][0xe4][0xba][0x91]","img_title_single":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","wind1":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]3-4[0xe7][0xba][0xa7]","wind2":"[0xe5][0x8c][0x97][0xe9][0xa3][0x8e]4-5[0xe7][0xba][0xa7][0xe8][0xbd][0xac]3-4[0xe7][0xba][0xa7]","wind3":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]3-4[0xe7][0xba][0xa7][0xe8][0xbd][0xac][0xe5][0xbe][0xae][0xe9][0xa3][0x8e]","wind4":"[0xe5][0xbe][0xae][0xe9][0xa3][0x8e]","wind5":"[0xe5][0xbe][0xae][0xe9][0xa3][0x8e]","wind6":"[0xe5][0xbe][0xae][0xe9][0xa3][0x8e]","fx1":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]","fx2":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]","fl1":"3-4[0xe7][0xba][0xa7]","fl2":"4-5[0xe7][0xba][0xa7][0xe8][0xbd][0xac]3-4[0xe7][0xba][0xa7]","fl3":"3-4[0xe7][0xba][0xa7][0xe8][0xbd][0xac][0xe5][0xb0][0x8f][0xe4][0xba][0x8e]3[0xe7][0xba][0xa7]","fl4":"[0xe5][0xb0][0x8f][0xe4][0xba][0x8e]3[0xe7][0xba][0xa7]","fl5":"[0xe5][0xb0][0x8f][0xe4][0xba][0x8e]3[0xe7][0xba][0xa7]","fl6":"[0xe5][0xb0][0x8f][0xe4][0xba][0x8e]3[0xe7][0xba][0xa7]","index":"[0xe5][0x86][0xb7]","index_d":"[0xe5][0xa4][0xa9][0xe6][0xb0][0x94][0xe5][0x86][0xb7][0xef][0xbc][0x8c][0xe5][0xbb][0xba][0xe8][0xae][0xae][0xe7][0x9d][0x80][0xe6][0xa3][0x89][0xe6][0x9c][0x8d][0xe3][0x80][0x81][0xe7][0xbe][0xbd][0xe7][0xbb][0x92][0xe6][0x9c][0x8d][0xe3][0x80][0x81][0xe7][0x9a][0xae][0xe5][0xa4][0xb9][0xe5][0x85][0x8b][0xe5][0x8a][0xa0][0xe7][0xbe][0x8a][0xe6][0xaf][0x9b][0xe8][0xa1][0xab][0xe7][0xad][0x89][0xe5][0x86][0xac][0xe5][0xad][0xa3][0xe6][0x9c][0x8d][0xe8][0xa3][0x85][0xe3][0x80][0x82][0xe5][0xb9][0xb4][0xe8][0x80][0x81][0xe4][0xbd][0x93][0xe5][0xbc][0xb1][0xe8][0x80][0x85][0xe5][0xae][0x9c][0xe7][0x9d][0x80][0xe5][0x8e][0x9a][0xe6][0xa3][0x89][0xe8][0xa1][0xa3][0xe3][0x80][0x81][0xe5][0x86][0xac][0xe5][0xa4][0xa7][0xe8][0xa1][0xa3][0xe6][0x88][0x96][0xe5][0x8e][0x9a][0xe7][0xbe][0xbd][0xe7][0xbb][0x92][0xe6][0x9c][0x8d][0xe3][0x80][0x82]","index48":"[0xe5][0xaf][0x92][0xe5][0x86][0xb7]","index48_d":"[0xe5][0xa4][0xa9][0xe6][0xb0][0x94][0xe5][0xaf][0x92][0xe5][0x86][0xb7][0xef][0xbc][0x8c][0xe5][0xbb][0xba][0xe8][0xae][0xae][0xe7][0x9d][0x80][0xe5][0x8e][0x9a][0xe7][0xbe][0xbd][0xe7][0xbb][0x92][0xe6][0x9c][0x8d][0xe3][0x80][0x81][0xe6][0xaf][0x9b][0xe7][0x9a][0xae][0xe5][0xa4][0xa7][0xe8][0xa1][0xa3][0xe5][0x8a][0xa0][0xe5][0x8e][0x9a][0xe6][0xaf][0x9b][0xe8][0xa1][0xa3][0xe7][0xad][0x89][0xe9][0x9a][0x86][0xe5][0x86][0xac][0xe6][0x9c][0x8d][0xe8][0xa3][0x85][0xe3][0x80][0x82][0xe5][0xb9][0xb4][0xe8][0x80][0x81][0xe4][0xbd][0x93][0xe5][0xbc][0xb1][0xe8][0x80][0x85][0xe5][0xb0][0xa4][0xe5][0x85][0xb6][0xe8][0xa6][0x81][0xe6][0xb3][0xa8][0xe6][0x84][0x8f][0xe4][0xbf][0x9d][0xe6][0x9a][0x96][0xe9][0x98][0xb2][0xe5][0x86][0xbb][0xe3][0x80][0x82]","index_uv":"[0xe6][0x9c][0x80][0xe5][0xbc][0xb1]","index48_uv":"[0xe6][0x9c][0x80][0xe5][0xbc][0xb1]","index_xc":"[0xe4][0xb8][0x8d][0xe5][0xae][0x9c]","index_tr":"[0xe4][0xb8][0x80][0xe8][0x88][0xac]","index_co":"[0xe8][0xbe][0x83][0xe8][0x88][0x92][0xe9][0x80][0x82]","st1":"6","st2":"-1","st3":"3","st4":"-8","st5":"-4","st6":"-7","index_cl":"[0xe4][0xb8][0x8d][0xe5][0xae][0x9c]","index_ls":"[0xe4][0xb8][0x8d][0xe5][0xae][0x9c]","index_ag":"[0xe6][0x9e][0x81][0xe4][0xb8][0x8d][0xe6][0x98][0x93][0xe5][0x8f][0x91]"}}"
+2013-02-17 16:10:34,869 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 16:10:34,869 [main] DEBUG org.apache.http.wire - << "0[\r][\n]"
+2013-02-17 16:10:34,870 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 16:10:34,870 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@59930b4b
+2013-02-17 16:10:34,870 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2013-02-17 16:10:55,678 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://m.weather.com.cn
+2013-02-17 16:10:55,694 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to m.weather.com.cn:80
+2013-02-17 16:10:55,741 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+2013-02-17 16:10:55,754 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2013-02-17 16:10:55,754 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2013-02-17 16:10:55,755 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2013-02-17 16:10:55,755 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+2013-02-17 16:10:55,755 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /data/101221704.html HTTP/1.1
+2013-02-17 16:10:55,755 [main] DEBUG org.apache.http.wire - >> "GET /data/101221704.html HTTP/1.1[\r][\n]"
+2013-02-17 16:10:55,756 [main] DEBUG org.apache.http.wire - >> "Host: m.weather.com.cn[\r][\n]"
+2013-02-17 16:10:55,756 [main] DEBUG org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+2013-02-17 16:10:55,756 [main] DEBUG org.apache.http.wire - >> "User-Agent: Apache-HttpClient/4.2.3 (java 1.5)[\r][\n]"
+2013-02-17 16:10:55,757 [main] DEBUG org.apache.http.wire - >> "[\r][\n]"
+2013-02-17 16:10:55,757 [main] DEBUG org.apache.http.headers - >> GET /data/101221704.html HTTP/1.1
+2013-02-17 16:10:55,757 [main] DEBUG org.apache.http.headers - >> Host: m.weather.com.cn
+2013-02-17 16:10:55,757 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+2013-02-17 16:10:55,757 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.2.3 (java 1.5)
+2013-02-17 16:10:55,822 [main] DEBUG org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+2013-02-17 16:10:55,824 [main] DEBUG org.apache.http.wire - << "Server: nginx/0.7.67[\r][\n]"
+2013-02-17 16:10:55,824 [main] DEBUG org.apache.http.wire - << "Date: Sun, 17 Feb 2013 08:10:51 GMT[\r][\n]"
+2013-02-17 16:10:55,824 [main] DEBUG org.apache.http.wire - << "Content-Type: text/html; charset=utf-8[\r][\n]"
+2013-02-17 16:10:55,824 [main] DEBUG org.apache.http.wire - << "Transfer-Encoding: chunked[\r][\n]"
+2013-02-17 16:10:55,824 [main] DEBUG org.apache.http.wire - << "Connection: keep-alive[\r][\n]"
+2013-02-17 16:10:55,824 [main] DEBUG org.apache.http.wire - << "P3P: CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"[\r][\n]"
+2013-02-17 16:10:55,824 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 16:10:55,825 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+2013-02-17 16:10:55,825 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+2013-02-17 16:10:55,825 [main] DEBUG org.apache.http.headers - << Server: nginx/0.7.67
+2013-02-17 16:10:55,825 [main] DEBUG org.apache.http.headers - << Date: Sun, 17 Feb 2013 08:10:51 GMT
+2013-02-17 16:10:55,825 [main] DEBUG org.apache.http.headers - << Content-Type: text/html; charset=utf-8
+2013-02-17 16:10:55,825 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+2013-02-17 16:10:55,825 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+2013-02-17 16:10:55,825 [main] DEBUG org.apache.http.headers - << P3P: CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
+2013-02-17 16:10:55,831 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+2013-02-17 16:10:55,834 [main] DEBUG org.apache.http.wire - << "76a[\r][\n]"
+2013-02-17 16:10:55,836 [main] DEBUG org.apache.http.wire - << "{"weatherinfo":{"city":"[0xe4][0xb9][0x9d][0xe5][0x8d][0x8e][0xe5][0xb1][0xb1]","city_en":"jiuhuashan","date_y":"2013[0xe5][0xb9][0xb4]2[0xe6][0x9c][0x88]17[0xe6][0x97][0xa5]","date":"","week":"[0xe6][0x98][0x9f][0xe6][0x9c][0x9f][0xe6][0x97][0xa5]","fchh":"11","cityid":"101221704","temp1":"7[0xe2][0x84][0x83]~1[0xe2][0x84][0x83]","temp2":"4[0xe2][0x84][0x83]~-5[0xe2][0x84][0x83]","temp3":"-2[0xe2][0x84][0x83]~-5[0xe2][0x84][0x83]","temp4":"2[0xe2][0x84][0x83]~-2[0xe2][0x84][0x83]","temp5":"4[0xe2][0x84][0x83]~0[0xe2][0x84][0x83]","temp6":"6[0xe2][0x84][0x83]~2[0xe2][0x84][0x83]","tempF1":"44.6[0xe2][0x84][0x89]~33.8[0xe2][0x84][0x89]","tempF2":"39.2[0xe2][0x84][0x89]~23[0xe2][0x84][0x89]","tempF3":"28.4[0xe2][0x84][0x89]~23[0xe2][0x84][0x89]","tempF4":"35.6[0xe2][0x84][0x89]~28.4[0xe2][0x84][0x89]","tempF5":"39.2[0xe2][0x84][0x89]~32[0xe2][0x84][0x89]","tempF6":"42.8[0xe2][0x84][0x89]~35.6[0xe2][0x84][0x89]","weather1":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","weather2":"[0xe4][0xb8][0xad][0xe9][0x9b][0xa8][0xe8][0xbd][0xac][0xe6][0x9a][0xb4][0xe9][0x9b][0xaa]","weather3":"[0xe4][0xb8][0xad][0xe9][0x9b][0xaa][0xe8][0xbd][0xac][0xe9][0x98][0xb4]","weather4":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xaa][0xe8][0xbd][0xac][0xe9][0x9b][0xa8][0xe5][0xa4][0xb9][0xe9][0x9b][0xaa]","weather5":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","weather6":"[0xe9][0x98][0xb4][0xe8][0xbd][0xac][0xe5][0xa4][0x9a][0xe4][0xba][0x91]","img1":"7","img2":"99","img3":"8","img4":"17","img5":"15","img6":"2","img7":"14","img8":"6","img9":"7","img10":"99","img11":"2","img12":"1","img_single":"7","img_title1":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","img_title2":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","img_title3":"[0xe4][0xb8][0xad][0xe9][0x9b][0xa8]","img_title4":"[0xe6][0x9a][0xb4][0xe9][0x9b][0xaa]","img_title5":"[0xe4][0xb8][0xad][0xe9][0x9b][0xaa]","img_title6":"[0xe9][0x98][0xb4]","img_title7":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xaa]","img_title8":"[0xe9][0x9b][0xa8][0xe5][0xa4][0xb9][0xe9][0x9b][0xaa]","img_title9":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","img_title10":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","img_title11":"[0xe9][0x98][0xb4]","img_title12":"[0xe5][0xa4][0x9a][0xe4][0xba][0x91]","img_title_single":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","wind1":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]3-4[0xe7][0xba][0xa7]","wind2":"[0xe5][0x8c][0x97][0xe9][0xa3][0x8e]4-5[0xe7][0xba][0xa7][0xe8][0xbd][0xac]3-4[0xe7][0xba][0xa7]","wind3":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]3-4[0xe7][0xba][0xa7][0xe8][0xbd][0xac][0xe5][0xbe][0xae][0xe9][0xa3][0x8e]","wind4":"[0xe5][0xbe][0xae][0xe9][0xa3][0x8e]","wind5":"[0xe5][0xbe][0xae][0xe9][0xa3][0x8e]","wind6":"[0xe5][0xbe][0xae][0xe9][0xa3][0x8e]","fx1":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]","fx2":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]","fl1":"3-4[0xe7][0xba][0xa7]","fl2":"4-5[0xe7][0xba][0xa7][0xe8][0xbd][0xac]3-4[0xe7][0xba][0xa7]","fl3":"3-4[0xe7][0xba][0xa7][0xe8][0xbd][0xac][0xe5][0xb0][0x8f][0xe4][0xba][0x8e]3[0xe7][0xba][0xa7]","fl4":"[0xe5][0xb0][0x8f][0xe4][0xba][0x8e]3[0xe7][0xba][0xa7]","fl5":"[0xe5][0xb0][0x8f][0xe4][0xba][0x8e]3[0xe7][0xba][0xa7]","fl6":"[0xe5][0xb0][0x8f][0xe4][0xba][0x8e]3[0xe7][0xba][0xa7]","index":"[0xe5][0x86][0xb7]","index_d":"[0xe5][0xa4][0xa9][0xe6][0xb0][0x94][0xe5][0x86][0xb7][0xef][0xbc][0x8c][0xe5][0xbb][0xba][0xe8][0xae][0xae][0xe7][0x9d][0x80][0xe6][0xa3][0x89][0xe6][0x9c][0x8d][0xe3][0x80][0x81][0xe7][0xbe][0xbd][0xe7][0xbb][0x92][0xe6][0x9c][0x8d][0xe3][0x80][0x81][0xe7][0x9a][0xae][0xe5][0xa4][0xb9][0xe5][0x85][0x8b][0xe5][0x8a][0xa0][0xe7][0xbe][0x8a][0xe6][0xaf][0x9b][0xe8][0xa1][0xab][0xe7][0xad][0x89][0xe5][0x86][0xac][0xe5][0xad][0xa3][0xe6][0x9c][0x8d][0xe8][0xa3][0x85][0xe3][0x80][0x82][0xe5][0xb9][0xb4][0xe8][0x80][0x81][0xe4][0xbd][0x93][0xe5][0xbc][0xb1][0xe8][0x80][0x85][0xe5][0xae][0x9c][0xe7][0x9d][0x80][0xe5][0x8e][0x9a][0xe6][0xa3][0x89][0xe8][0xa1][0xa3][0xe3][0x80][0x81][0xe5][0x86][0xac][0xe5][0xa4][0xa7][0xe8][0xa1][0xa3][0xe6][0x88][0x96][0xe5][0x8e][0x9a][0xe7][0xbe][0xbd][0xe7][0xbb][0x92][0xe6][0x9c][0x8d][0xe3][0x80][0x82]","index48":"[0xe5][0xaf][0x92][0xe5][0x86][0xb7]","index48_d":"[0xe5][0xa4][0xa9][0xe6][0xb0][0x94][0xe5][0xaf][0x92][0xe5][0x86][0xb7][0xef][0xbc][0x8c][0xe5][0xbb][0xba][0xe8][0xae][0xae][0xe7][0x9d][0x80][0xe5][0x8e][0x9a][0xe7][0xbe][0xbd][0xe7][0xbb][0x92][0xe6][0x9c][0x8d][0xe3][0x80][0x81][0xe6][0xaf][0x9b][0xe7][0x9a][0xae][0xe5][0xa4][0xa7][0xe8][0xa1][0xa3][0xe5][0x8a][0xa0][0xe5][0x8e][0x9a][0xe6][0xaf][0x9b][0xe8][0xa1][0xa3][0xe7][0xad][0x89][0xe9][0x9a][0x86][0xe5][0x86][0xac][0xe6][0x9c][0x8d][0xe8][0xa3][0x85][0xe3][0x80][0x82][0xe5][0xb9][0xb4][0xe8][0x80][0x81][0xe4][0xbd][0x93][0xe5][0xbc][0xb1][0xe8][0x80][0x85][0xe5][0xb0][0xa4][0xe5][0x85][0xb6][0xe8][0xa6][0x81][0xe6][0xb3][0xa8][0xe6][0x84][0x8f][0xe4][0xbf][0x9d][0xe6][0x9a][0x96][0xe9][0x98][0xb2][0xe5][0x86][0xbb][0xe3][0x80][0x82]","index_uv":"[0xe6][0x9c][0x80][0xe5][0xbc][0xb1]","index48_uv":"[0xe6][0x9c][0x80][0xe5][0xbc][0xb1]","index_xc":"[0xe4][0xb8][0x8d][0xe5][0xae][0x9c]","index_tr":"[0xe4][0xb8][0x80][0xe8][0x88][0xac]","index_co":"[0xe8][0xbe][0x83][0xe8][0x88][0x92][0xe9][0x80][0x82]","st1":"6","st2":"-1","st3":"3","st4":"-8","st5":"-4","st6":"-7","index_cl":"[0xe4][0xb8][0x8d][0xe5][0xae][0x9c]","index_ls":"[0xe4][0xb8][0x8d][0xe5][0xae][0x9c]","index_ag":"[0xe6][0x9e][0x81][0xe4][0xb8][0x8d][0xe6][0x98][0x93][0xe5][0x8f][0x91]"}}"
+2013-02-17 16:10:55,837 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 16:10:55,837 [main] DEBUG org.apache.http.wire - << "0[\r][\n]"
+2013-02-17 16:10:55,837 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 16:10:55,837 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@59930b4b
+2013-02-17 16:10:55,837 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2013-02-17 16:11:24,542 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://m.weather.com.cn
+2013-02-17 16:11:24,994 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to m.weather.com.cn:80
+2013-02-17 16:11:25,040 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+2013-02-17 16:11:25,052 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2013-02-17 16:11:25,052 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2013-02-17 16:11:25,052 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2013-02-17 16:11:25,053 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+2013-02-17 16:11:25,053 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /data/101221704.html HTTP/1.1
+2013-02-17 16:11:25,053 [main] DEBUG org.apache.http.wire - >> "GET /data/101221704.html HTTP/1.1[\r][\n]"
+2013-02-17 16:11:25,054 [main] DEBUG org.apache.http.wire - >> "Host: m.weather.com.cn[\r][\n]"
+2013-02-17 16:11:25,054 [main] DEBUG org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+2013-02-17 16:11:25,054 [main] DEBUG org.apache.http.wire - >> "User-Agent: Apache-HttpClient/4.2.3 (java 1.5)[\r][\n]"
+2013-02-17 16:11:25,054 [main] DEBUG org.apache.http.wire - >> "[\r][\n]"
+2013-02-17 16:11:25,055 [main] DEBUG org.apache.http.headers - >> GET /data/101221704.html HTTP/1.1
+2013-02-17 16:11:25,055 [main] DEBUG org.apache.http.headers - >> Host: m.weather.com.cn
+2013-02-17 16:11:25,055 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+2013-02-17 16:11:25,055 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.2.3 (java 1.5)
+2013-02-17 16:11:25,083 [main] DEBUG org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+2013-02-17 16:11:25,085 [main] DEBUG org.apache.http.wire - << "Server: nginx/0.7.67[\r][\n]"
+2013-02-17 16:11:25,086 [main] DEBUG org.apache.http.wire - << "Date: Sun, 17 Feb 2013 08:11:18 GMT[\r][\n]"
+2013-02-17 16:11:25,086 [main] DEBUG org.apache.http.wire - << "Content-Type: text/html; charset=utf-8[\r][\n]"
+2013-02-17 16:11:25,086 [main] DEBUG org.apache.http.wire - << "Transfer-Encoding: chunked[\r][\n]"
+2013-02-17 16:11:25,086 [main] DEBUG org.apache.http.wire - << "Connection: keep-alive[\r][\n]"
+2013-02-17 16:11:25,086 [main] DEBUG org.apache.http.wire - << "P3P: CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"[\r][\n]"
+2013-02-17 16:11:25,086 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 16:11:25,087 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+2013-02-17 16:11:25,087 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+2013-02-17 16:11:25,087 [main] DEBUG org.apache.http.headers - << Server: nginx/0.7.67
+2013-02-17 16:11:25,087 [main] DEBUG org.apache.http.headers - << Date: Sun, 17 Feb 2013 08:11:18 GMT
+2013-02-17 16:11:25,087 [main] DEBUG org.apache.http.headers - << Content-Type: text/html; charset=utf-8
+2013-02-17 16:11:25,087 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+2013-02-17 16:11:25,087 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+2013-02-17 16:11:25,087 [main] DEBUG org.apache.http.headers - << P3P: CP="IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT"
+2013-02-17 16:11:25,093 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+2013-02-17 16:11:25,096 [main] DEBUG org.apache.http.wire - << "76a[\r][\n]"
+2013-02-17 16:11:25,097 [main] DEBUG org.apache.http.wire - << "{"weatherinfo":{"city":"[0xe4][0xb9][0x9d][0xe5][0x8d][0x8e][0xe5][0xb1][0xb1]","city_en":"jiuhuashan","date_y":"2013[0xe5][0xb9][0xb4]2[0xe6][0x9c][0x88]17[0xe6][0x97][0xa5]","date":"","week":"[0xe6][0x98][0x9f][0xe6][0x9c][0x9f][0xe6][0x97][0xa5]","fchh":"11","cityid":"101221704","temp1":"7[0xe2][0x84][0x83]~1[0xe2][0x84][0x83]","temp2":"4[0xe2][0x84][0x83]~-5[0xe2][0x84][0x83]","temp3":"-2[0xe2][0x84][0x83]~-5[0xe2][0x84][0x83]","temp4":"2[0xe2][0x84][0x83]~-2[0xe2][0x84][0x83]","temp5":"4[0xe2][0x84][0x83]~0[0xe2][0x84][0x83]","temp6":"6[0xe2][0x84][0x83]~2[0xe2][0x84][0x83]","tempF1":"44.6[0xe2][0x84][0x89]~33.8[0xe2][0x84][0x89]","tempF2":"39.2[0xe2][0x84][0x89]~23[0xe2][0x84][0x89]","tempF3":"28.4[0xe2][0x84][0x89]~23[0xe2][0x84][0x89]","tempF4":"35.6[0xe2][0x84][0x89]~28.4[0xe2][0x84][0x89]","tempF5":"39.2[0xe2][0x84][0x89]~32[0xe2][0x84][0x89]","tempF6":"42.8[0xe2][0x84][0x89]~35.6[0xe2][0x84][0x89]","weather1":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","weather2":"[0xe4][0xb8][0xad][0xe9][0x9b][0xa8][0xe8][0xbd][0xac][0xe6][0x9a][0xb4][0xe9][0x9b][0xaa]","weather3":"[0xe4][0xb8][0xad][0xe9][0x9b][0xaa][0xe8][0xbd][0xac][0xe9][0x98][0xb4]","weather4":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xaa][0xe8][0xbd][0xac][0xe9][0x9b][0xa8][0xe5][0xa4][0xb9][0xe9][0x9b][0xaa]","weather5":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","weather6":"[0xe9][0x98][0xb4][0xe8][0xbd][0xac][0xe5][0xa4][0x9a][0xe4][0xba][0x91]","img1":"7","img2":"99","img3":"8","img4":"17","img5":"15","img6":"2","img7":"14","img8":"6","img9":"7","img10":"99","img11":"2","img12":"1","img_single":"7","img_title1":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","img_title2":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","img_title3":"[0xe4][0xb8][0xad][0xe9][0x9b][0xa8]","img_title4":"[0xe6][0x9a][0xb4][0xe9][0x9b][0xaa]","img_title5":"[0xe4][0xb8][0xad][0xe9][0x9b][0xaa]","img_title6":"[0xe9][0x98][0xb4]","img_title7":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xaa]","img_title8":"[0xe9][0x9b][0xa8][0xe5][0xa4][0xb9][0xe9][0x9b][0xaa]","img_title9":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","img_title10":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","img_title11":"[0xe9][0x98][0xb4]","img_title12":"[0xe5][0xa4][0x9a][0xe4][0xba][0x91]","img_title_single":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","wind1":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]3-4[0xe7][0xba][0xa7]","wind2":"[0xe5][0x8c][0x97][0xe9][0xa3][0x8e]4-5[0xe7][0xba][0xa7][0xe8][0xbd][0xac]3-4[0xe7][0xba][0xa7]","wind3":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]3-4[0xe7][0xba][0xa7][0xe8][0xbd][0xac][0xe5][0xbe][0xae][0xe9][0xa3][0x8e]","wind4":"[0xe5][0xbe][0xae][0xe9][0xa3][0x8e]","wind5":"[0xe5][0xbe][0xae][0xe9][0xa3][0x8e]","wind6":"[0xe5][0xbe][0xae][0xe9][0xa3][0x8e]","fx1":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]","fx2":"[0xe4][0xb8][0x9c][0xe5][0x8c][0x97][0xe9][0xa3][0x8e]","fl1":"3-4[0xe7][0xba][0xa7]","fl2":"4-5[0xe7][0xba][0xa7][0xe8][0xbd][0xac]3-4[0xe7][0xba][0xa7]","fl3":"3-4[0xe7][0xba][0xa7][0xe8][0xbd][0xac][0xe5][0xb0][0x8f][0xe4][0xba][0x8e]3[0xe7][0xba][0xa7]","fl4":"[0xe5][0xb0][0x8f][0xe4][0xba][0x8e]3[0xe7][0xba][0xa7]","fl5":"[0xe5][0xb0][0x8f][0xe4][0xba][0x8e]3[0xe7][0xba][0xa7]","fl6":"[0xe5][0xb0][0x8f][0xe4][0xba][0x8e]3[0xe7][0xba][0xa7]","index":"[0xe5][0x86][0xb7]","index_d":"[0xe5][0xa4][0xa9][0xe6][0xb0][0x94][0xe5][0x86][0xb7][0xef][0xbc][0x8c][0xe5][0xbb][0xba][0xe8][0xae][0xae][0xe7][0x9d][0x80][0xe6][0xa3][0x89][0xe6][0x9c][0x8d][0xe3][0x80][0x81][0xe7][0xbe][0xbd][0xe7][0xbb][0x92][0xe6][0x9c][0x8d][0xe3][0x80][0x81][0xe7][0x9a][0xae][0xe5][0xa4][0xb9][0xe5][0x85][0x8b][0xe5][0x8a][0xa0][0xe7][0xbe][0x8a][0xe6][0xaf][0x9b][0xe8][0xa1][0xab][0xe7][0xad][0x89][0xe5][0x86][0xac][0xe5][0xad][0xa3][0xe6][0x9c][0x8d][0xe8][0xa3][0x85][0xe3][0x80][0x82][0xe5][0xb9][0xb4][0xe8][0x80][0x81][0xe4][0xbd][0x93][0xe5][0xbc][0xb1][0xe8][0x80][0x85][0xe5][0xae][0x9c][0xe7][0x9d][0x80][0xe5][0x8e][0x9a][0xe6][0xa3][0x89][0xe8][0xa1][0xa3][0xe3][0x80][0x81][0xe5][0x86][0xac][0xe5][0xa4][0xa7][0xe8][0xa1][0xa3][0xe6][0x88][0x96][0xe5][0x8e][0x9a][0xe7][0xbe][0xbd][0xe7][0xbb][0x92][0xe6][0x9c][0x8d][0xe3][0x80][0x82]","index48":"[0xe5][0xaf][0x92][0xe5][0x86][0xb7]","index48_d":"[0xe5][0xa4][0xa9][0xe6][0xb0][0x94][0xe5][0xaf][0x92][0xe5][0x86][0xb7][0xef][0xbc][0x8c][0xe5][0xbb][0xba][0xe8][0xae][0xae][0xe7][0x9d][0x80][0xe5][0x8e][0x9a][0xe7][0xbe][0xbd][0xe7][0xbb][0x92][0xe6][0x9c][0x8d][0xe3][0x80][0x81][0xe6][0xaf][0x9b][0xe7][0x9a][0xae][0xe5][0xa4][0xa7][0xe8][0xa1][0xa3][0xe5][0x8a][0xa0][0xe5][0x8e][0x9a][0xe6][0xaf][0x9b][0xe8][0xa1][0xa3][0xe7][0xad][0x89][0xe9][0x9a][0x86][0xe5][0x86][0xac][0xe6][0x9c][0x8d][0xe8][0xa3][0x85][0xe3][0x80][0x82][0xe5][0xb9][0xb4][0xe8][0x80][0x81][0xe4][0xbd][0x93][0xe5][0xbc][0xb1][0xe8][0x80][0x85][0xe5][0xb0][0xa4][0xe5][0x85][0xb6][0xe8][0xa6][0x81][0xe6][0xb3][0xa8][0xe6][0x84][0x8f][0xe4][0xbf][0x9d][0xe6][0x9a][0x96][0xe9][0x98][0xb2][0xe5][0x86][0xbb][0xe3][0x80][0x82]","index_uv":"[0xe6][0x9c][0x80][0xe5][0xbc][0xb1]","index48_uv":"[0xe6][0x9c][0x80][0xe5][0xbc][0xb1]","index_xc":"[0xe4][0xb8][0x8d][0xe5][0xae][0x9c]","index_tr":"[0xe4][0xb8][0x80][0xe8][0x88][0xac]","index_co":"[0xe8][0xbe][0x83][0xe8][0x88][0x92][0xe9][0x80][0x82]","st1":"6","st2":"-1","st3":"3","st4":"-8","st5":"-4","st6":"-7","index_cl":"[0xe4][0xb8][0x8d][0xe5][0xae][0x9c]","index_ls":"[0xe4][0xb8][0x8d][0xe5][0xae][0x9c]","index_ag":"[0xe6][0x9e][0x81][0xe4][0xb8][0x8d][0xe6][0x98][0x93][0xe5][0x8f][0x91]"}}"
+2013-02-17 16:11:25,098 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 16:11:25,098 [main] DEBUG org.apache.http.wire - << "0[\r][\n]"
+2013-02-17 16:11:25,098 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 16:11:25,098 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@59930b4b
+2013-02-17 16:11:25,098 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+2013-02-17 16:24:11,146 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://www.weather.com.cn
+2013-02-17 16:24:11,432 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to www.weather.com.cn:80
+2013-02-17 16:24:11,477 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+2013-02-17 16:24:11,489 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2013-02-17 16:24:11,489 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2013-02-17 16:24:11,489 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2013-02-17 16:24:11,489 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+2013-02-17 16:24:11,490 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /data/cityinfo/101221704.html HTTP/1.1
+2013-02-17 16:24:11,490 [main] DEBUG org.apache.http.wire - >> "GET /data/cityinfo/101221704.html HTTP/1.1[\r][\n]"
+2013-02-17 16:24:11,491 [main] DEBUG org.apache.http.wire - >> "Host: www.weather.com.cn[\r][\n]"
+2013-02-17 16:24:11,491 [main] DEBUG org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+2013-02-17 16:24:11,491 [main] DEBUG org.apache.http.wire - >> "User-Agent: Apache-HttpClient/4.2.3 (java 1.5)[\r][\n]"
+2013-02-17 16:24:11,491 [main] DEBUG org.apache.http.wire - >> "[\r][\n]"
+2013-02-17 16:24:11,491 [main] DEBUG org.apache.http.headers - >> GET /data/cityinfo/101221704.html HTTP/1.1
+2013-02-17 16:24:11,492 [main] DEBUG org.apache.http.headers - >> Host: www.weather.com.cn
+2013-02-17 16:24:11,492 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+2013-02-17 16:24:11,492 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.2.3 (java 1.5)
+2013-02-17 16:24:11,568 [main] DEBUG org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+2013-02-17 16:24:11,570 [main] DEBUG org.apache.http.wire - << "Server: Apache/2.2.0[\r][\n]"
+2013-02-17 16:24:11,570 [main] DEBUG org.apache.http.wire - << "Date: Sun, 17 Feb 2013 08:23:10 GMT[\r][\n]"
+2013-02-17 16:24:11,570 [main] DEBUG org.apache.http.wire - << "Content-Type: text/html; charset=utf-8[\r][\n]"
+2013-02-17 16:24:11,570 [main] DEBUG org.apache.http.wire - << "Transfer-Encoding: chunked[\r][\n]"
+2013-02-17 16:24:11,570 [main] DEBUG org.apache.http.wire - << "Connection: close[\r][\n]"
+2013-02-17 16:24:11,570 [main] DEBUG org.apache.http.wire - << "Age: 0[\r][\n]"
+2013-02-17 16:24:11,570 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 16:24:11,571 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+2013-02-17 16:24:11,571 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+2013-02-17 16:24:11,571 [main] DEBUG org.apache.http.headers - << Server: Apache/2.2.0
+2013-02-17 16:24:11,571 [main] DEBUG org.apache.http.headers - << Date: Sun, 17 Feb 2013 08:23:10 GMT
+2013-02-17 16:24:11,571 [main] DEBUG org.apache.http.headers - << Content-Type: text/html; charset=utf-8
+2013-02-17 16:24:11,571 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+2013-02-17 16:24:11,571 [main] DEBUG org.apache.http.headers - << Connection: close
+2013-02-17 16:24:11,571 [main] DEBUG org.apache.http.headers - << Age: 0
+2013-02-17 16:24:11,580 [main] DEBUG org.apache.http.wire - << "9a[\r][\n]"
+2013-02-17 16:24:11,580 [main] DEBUG org.apache.http.wire - << "{"weatherinfo":{"city":"[0xe4][0xb9][0x9d][0xe5][0x8d][0x8e][0xe5][0xb1][0xb1]","cityid":"101221704","temp1":"7[0xe2][0x84][0x83]","temp2":"1[0xe2][0x84][0x83]","weather":"[0xe5][0xb0][0x8f][0xe9][0x9b][0xa8]","img1":"d7.gif","img2":"n7.gif","ptime":"11:00"}}"
+2013-02-17 16:24:11,580 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 16:24:11,580 [main] DEBUG org.apache.http.wire - << "0[\r][\n]"
+2013-02-17 16:24:11,580 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+2013-02-17 16:24:11,580 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@64ecea5e
+2013-02-17 16:24:11,581 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:12740<->113.108.239.105:80 shut down
+2013-02-17 16:24:11,581 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive for 9223372036854775807 MILLISECONDS

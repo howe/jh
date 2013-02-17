@@ -1,4 +1,4 @@
-package cn.jh6.bean;
+package cn.jh6.weixin.bean;
 
 import org.nutz.dao.entity.annotation.*;
 
