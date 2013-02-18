@@ -1,4 +1,4 @@
-package cn.jh6.weixin.module;
+package cn.jh6.module;
 
 import java.util.HashMap;
 import java.util.List;
@@ -13,7 +13,7 @@ import org.nutz.service.EntityService;
 import org.nutz.log.Log;
 import org.nutz.log.Logs;
 
-import cn.jh6.weixin.bean.Type;
+import cn.jh6.bean.Type;
 
 @At("/Type")
 @IocBean(fields={"dao"})

@@ -1,4 +1,4 @@
-package cn.jh6.weixin.tool;
+package cn.jh6.tool;
 
 import java.io.IOException;
 
@@ -11,9 +11,9 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
 
-import cn.jh6.weixin.bean.TQ;
-import cn.jh6.weixin.bean.Tianqi;
-import cn.jh6.weixin.bean.Weather;
+import cn.jh6.bean.TQ;
+import cn.jh6.bean.Tianqi;
+import cn.jh6.bean.Weather;
 
 /**
  * 天气气候工具类
@@ -29,7 +29,7 @@ public class Qihou {
 	 * @throws IOException 
 	 * @throws ClientProtocolException 
 	 */
-	private static Tianqi queryTianqi(String cityId) throws ClientProtocolException, IOException{
+	public static Tianqi queryTianqi(String cityId) throws ClientProtocolException, IOException{
 		
 		if (cityId == null)
 			cityId = "101010100";		
@@ -65,7 +65,7 @@ public class Qihou {
 	 * @throws IOException 
 	 * @throws ClientProtocolException 
 	 */
-	private static Weather queryWeather(String cityId) throws ClientProtocolException, IOException{
+	public static Weather queryWeather(String cityId) throws ClientProtocolException, IOException{
 		
 		if (cityId == null)
 			cityId = "101010100";
@@ -185,7 +185,7 @@ public class Qihou {
 	 * @throws IOException 
 	 * @throws ParseException 
 	 */
-	private static TQ queryTQ(String cityId) throws ParseException, IOException{
+	public static TQ queryTQ(String cityId) throws ParseException, IOException{
 		
 		if (cityId == null)
 			cityId = "101010100";
@@ -211,11 +211,15 @@ public class Qihou {
 	}
 	
 	public static void main(String[] args) throws ClientProtocolException, IOException {
-//
-//		Tianqi qianqi = new Tianqi();
-//		qianqi = Qihou.queryTianqi("101221704");
-//		System.out.println(qianqi.getTemp());
-//		System.out.println(Qihou.queryTQ("101221704"));
+
+		Tianqi qianqi = new Tianqi();
+		qianqi = Qihou.queryTianqi("101221704");		
+		System.out.print(qianqi.getCity());
+		System.out.print(" - 实时温度: "+qianqi.getTemp());
+		System.out.print("  相对湿度: "+qianqi.getSd());
+		System.out.print("  风力情况: "+qianqi.getWd());
+		System.out.print("("+qianqi.getWs()+")");
+		System.out.print("  检测时间: "+qianqi.getTime());
 //		Weather weather = new Weather();
 //		weather = Qihou.queryWeather("101221704");
 //		System.out.println(weather.getIndex_d());		

@@ -1,4 +1,4 @@
-package cn.jh6.weixin.bean;
+package cn.jh6.bean;
 
 /***
  * 六天天气

@@ -1,4 +1,4 @@
-package cn.jh6.weixin.tool;
+package cn.jh6.tool;
 
 import java.security.MessageDigest;
 

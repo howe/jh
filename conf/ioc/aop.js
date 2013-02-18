@@ -7,7 +7,7 @@ var ioc = {
                     fields : {
                     	itemList : [
                         	//['cn.jh6.+','.+','ioc:log'],
-                            ['cn.jh6.weixin+','.+','ioc:txREAD_COMMITTED']
+                            ['cn.jh6+','.+','ioc:txREAD_COMMITTED']
                         ]
                      }
                  },
